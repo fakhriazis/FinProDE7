@@ -1,0 +1,14 @@
+[2024-12-13T17:55:30.880+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: martin_odegaard_to_postgres_etl.extract_data manual__2024-12-13T17:55:28.179583+00:00 [queued]>
+[2024-12-13T17:55:30.885+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: martin_odegaard_to_postgres_etl.extract_data manual__2024-12-13T17:55:28.179583+00:00 [queued]>
+[2024-12-13T17:55:30.885+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2024-12-13T17:55:30.893+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): extract_data> on 2024-12-13 17:55:28.179583+00:00
+[2024-12-13T17:55:30.899+0000] {standard_task_runner.py:57} INFO - Started process 75388 to run task
+[2024-12-13T17:55:30.902+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'martin_odegaard_to_postgres_etl', 'extract_data', 'manual__2024-12-13T17:55:28.179583+00:00', '--job-id', '124', '--raw', '--subdir', 'DAGS_FOLDER/martin_odegaard_to_postgres_etl.py', '--cfg-path', '/tmp/tmpan6iutge']
+[2024-12-13T17:55:30.904+0000] {standard_task_runner.py:85} INFO - Job 124: Subtask extract_data
+[2024-12-13T17:55:30.944+0000] {task_command.py:410} INFO - Running <TaskInstance: martin_odegaard_to_postgres_etl.extract_data manual__2024-12-13T17:55:28.179583+00:00 [running]> on host 653f470dc9b4
+[2024-12-13T17:55:31.483+0000] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='martin_odegaard_to_postgres_etl' AIRFLOW_CTX_TASK_ID='extract_data' AIRFLOW_CTX_EXECUTION_DATE='2024-12-13T17:55:28.179583+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-13T17:55:28.179583+00:00'
+[2024-12-13T17:55:31.726+0000] {logging_mixin.py:149} INFO - File martin_odegaard_match_logs_2023_2024.json downloaded to /tmp/data.json
+[2024-12-13T17:55:31.728+0000] {python.py:183} INFO - Done. Returned value was: None
+[2024-12-13T17:55:31.750+0000] {taskinstance.py:1345} INFO - Marking task as SUCCESS. dag_id=martin_odegaard_to_postgres_etl, task_id=extract_data, execution_date=20241213T175528, start_date=20241213T175530, end_date=20241213T175531
+[2024-12-13T17:55:31.784+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-12-13T17:55:31.837+0000] {taskinstance.py:2653} INFO - 1 downstream tasks scheduled from follow-on schedule check

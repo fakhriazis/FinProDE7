@@ -1,0 +1,76 @@
+version: "3.9"
+
+services:
+  airflow-db:
+    image: postgres:15
+    container_name: airflow-db
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow
+    ports:
+      - "5434:5432"
+    volumes:
+      - ./postgres-data:/var/lib/postgresql/data
+
+  airflow:
+    build:
+      context: ./airflow
+      dockerfile: Dockerfile
+    container_name: airflow
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./airflow/dags:/opt/airflow/dags
+      - ./airflow/logs:/opt/airflow/logs
+      - ./airflow/plugins:/opt/airflow/plugins
+    environment:
+      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+      - AIRFLOW__CORE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@airflow-db:5432/airflow
+      - TZ=Asia/Jakarta
+      - AIRFLOW__WEBSERVER__SECRET_KEY=finpro
+    depends_on:
+      - airflow-db
+  
+  webserver:
+    image: apache/airflow:2.6.2-python3.8
+    environment:
+      - TZ=Asia/Jakarta
+      - AIRFLOW__WEBSERVER__SECRET_KEY=finpro
+  
+  worker:
+    image: apache/airflow:2.6.2-python3.8
+    environment:
+      - TZ=Asia/Jakarta
+      - AIRFLOW__WEBSERVER__SECRET_KEY=finpro
+
+  airflow-scheduler-arsenal:
+    image: apache/airflow:2.6.2-python3.8
+    container_name: airflow-scheduler-arsenal
+    command: scheduler
+    depends_on:
+      - airflow-db
+    environment:
+      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@airflow-db:5432/airflow
+      - AIRFLOW__WEBSERVER__SECRET_KEY=finpro
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./logs:/opt/airflow/logs
+      - ./plugins:/opt/airflow/plugins
+    restart: always
+
+  minIO:
+    image: quay.io/minio/minio:latest
+    container_name: minio
+    command: server /data --console-address ":9001"
+    ports:
+      - "9000:9000"   # Port API MinIO
+      - "9001:9001"   # Port Console MinIO
+    environment:
+      MINIO_ROOT_USER: admin      # Username untuk MinIO
+      MINIO_ROOT_PASSWORD: password  # Password untuk MinIO
+    volumes:
+      - ./minIO/data:/data
+
+  

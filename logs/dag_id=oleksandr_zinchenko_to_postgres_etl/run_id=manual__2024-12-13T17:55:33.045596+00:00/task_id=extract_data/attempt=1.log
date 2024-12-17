@@ -1,0 +1,14 @@
+[2024-12-13T17:55:36.118+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: oleksandr_zinchenko_to_postgres_etl.extract_data manual__2024-12-13T17:55:33.045596+00:00 [queued]>
+[2024-12-13T17:55:36.122+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: oleksandr_zinchenko_to_postgres_etl.extract_data manual__2024-12-13T17:55:33.045596+00:00 [queued]>
+[2024-12-13T17:55:36.122+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2024-12-13T17:55:36.128+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): extract_data> on 2024-12-13 17:55:33.045596+00:00
+[2024-12-13T17:55:36.133+0000] {standard_task_runner.py:57} INFO - Started process 75489 to run task
+[2024-12-13T17:55:36.135+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'oleksandr_zinchenko_to_postgres_etl', 'extract_data', 'manual__2024-12-13T17:55:33.045596+00:00', '--job-id', '127', '--raw', '--subdir', 'DAGS_FOLDER/oleksandr_zinchenko_to_postgres_etl.py', '--cfg-path', '/tmp/tmp6fj_x0wz']
+[2024-12-13T17:55:36.137+0000] {standard_task_runner.py:85} INFO - Job 127: Subtask extract_data
+[2024-12-13T17:55:36.180+0000] {task_command.py:410} INFO - Running <TaskInstance: oleksandr_zinchenko_to_postgres_etl.extract_data manual__2024-12-13T17:55:33.045596+00:00 [running]> on host 653f470dc9b4
+[2024-12-13T17:55:36.411+0000] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='oleksandr_zinchenko_to_postgres_etl' AIRFLOW_CTX_TASK_ID='extract_data' AIRFLOW_CTX_EXECUTION_DATE='2024-12-13T17:55:33.045596+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-13T17:55:33.045596+00:00'
+[2024-12-13T17:55:36.557+0000] {logging_mixin.py:149} INFO - File oleksandr_zinchenko_match_logs_2023_2024.json downloaded to /tmp/data.json
+[2024-12-13T17:55:36.558+0000] {python.py:183} INFO - Done. Returned value was: None
+[2024-12-13T17:55:36.572+0000] {taskinstance.py:1345} INFO - Marking task as SUCCESS. dag_id=oleksandr_zinchenko_to_postgres_etl, task_id=extract_data, execution_date=20241213T175533, start_date=20241213T175536, end_date=20241213T175536
+[2024-12-13T17:55:36.608+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-12-13T17:55:36.650+0000] {taskinstance.py:2653} INFO - 1 downstream tasks scheduled from follow-on schedule check

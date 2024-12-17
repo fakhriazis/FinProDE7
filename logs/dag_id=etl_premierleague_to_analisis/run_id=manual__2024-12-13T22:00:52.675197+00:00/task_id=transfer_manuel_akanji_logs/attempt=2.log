@@ -1,0 +1,30 @@
+[2024-12-13T22:01:38.899+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_premierleague_to_analisis.transfer_manuel_akanji_logs manual__2024-12-13T22:00:52.675197+00:00 [queued]>
+[2024-12-13T22:01:38.995+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_premierleague_to_analisis.transfer_manuel_akanji_logs manual__2024-12-13T22:00:52.675197+00:00 [queued]>
+[2024-12-13T22:01:38.998+0000] {taskinstance.py:1308} INFO - Starting attempt 2 of 2
+[2024-12-13T22:01:39.181+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): transfer_manuel_akanji_logs> on 2024-12-13 22:00:52.675197+00:00
+[2024-12-13T22:01:39.273+0000] {standard_task_runner.py:57} INFO - Started process 68013 to run task
+[2024-12-13T22:01:39.287+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'etl_premierleague_to_analisis', 'transfer_manuel_akanji_logs', 'manual__2024-12-13T22:00:52.675197+00:00', '--job-id', '266', '--raw', '--subdir', 'DAGS_FOLDER/etl_premierleague_to_analisis.py', '--cfg-path', '/tmp/tmpvdo9a2ui']
+[2024-12-13T22:01:39.306+0000] {standard_task_runner.py:85} INFO - Job 266: Subtask transfer_manuel_akanji_logs
+[2024-12-13T22:01:40.810+0000] {task_command.py:410} INFO - Running <TaskInstance: etl_premierleague_to_analisis.transfer_manuel_akanji_logs manual__2024-12-13T22:00:52.675197+00:00 [running]> on host 653f470dc9b4
+[2024-12-13T22:01:44.320+0000] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='etl_premierleague_to_analisis' AIRFLOW_CTX_TASK_ID='transfer_manuel_akanji_logs' AIRFLOW_CTX_EXECUTION_DATE='2024-12-13T22:00:52.675197+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-13T22:00:52.675197+00:00'
+[2024-12-13T22:01:44.938+0000] {base.py:73} INFO - Using connection ID 'shared_postgres' for task execution.
+[2024-12-13T22:01:45.130+0000] {sql.py:375} INFO - Running statement: SELECT unnamed_0, header_performance, header_expected, header_sca, header_passes, header_carries, header_take_ons, date, dayofweek, comp, round, venue, result, team, opponent, game_started, position, minutes, goals, assists, pens_made, pens_att, shots, shots_on_target, cards_yellow, cards_red, touches, tackles, interceptions, blocks, xg, npxg, xg_assist, sca, gca, passes_completed, passes, passes_pct, progressive_passes, carries, progressive_carries, take_ons, take_ons_won, match_report FROM premierleague.public.manuel_akanji_logs, parameters: None
+[2024-12-13T22:01:45.173+0000] {sql.py:384} INFO - Rows affected: 68
+[2024-12-13T22:01:45.352+0000] {base.py:73} INFO - Using connection ID 'shared_postgres' for task execution.
+[2024-12-13T22:01:45.516+0000] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/etl_premierleague_to_analisis.py", line 40, in transfer_table_in_same_connection
+    db_hook.insert_rows(target_table, source_data, target_fields=columns, replace=True)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 465, in insert_rows
+    sql = self._generate_insert_sql(table, values, target_fields, replace, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/postgres/hooks/postgres.py", line 299, in _generate_insert_sql
+    raise ValueError("PostgreSQL ON CONFLICT upsert syntax requires an unique index")
+ValueError: PostgreSQL ON CONFLICT upsert syntax requires an unique index
+[2024-12-13T22:01:45.886+0000] {taskinstance.py:1345} INFO - Marking task as FAILED. dag_id=etl_premierleague_to_analisis, task_id=transfer_manuel_akanji_logs, execution_date=20241213T220052, start_date=20241213T220138, end_date=20241213T220145
+[2024-12-13T22:01:46.140+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 266 for task transfer_manuel_akanji_logs (PostgreSQL ON CONFLICT upsert syntax requires an unique index; 68013)
+[2024-12-13T22:01:46.252+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2024-12-13T22:01:46.873+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

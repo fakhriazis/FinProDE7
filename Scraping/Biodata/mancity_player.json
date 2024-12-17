@@ -1,0 +1,90 @@
+[
+    {
+        "player_id": "1f44ac21",
+        "player_name": "Erling Haaland",
+        "position": "FW-MF ▪",
+        "footed": "Left",
+        "club": "Manchester City",
+        "nationality": "Norway"
+    },
+    {
+        "player_id": "b0b4fd3e",
+        "player_name": "Jack Grealish",
+        "position": "FW-MF (AM-WM, left) ▪",
+        "footed": "Right",
+        "club": "Manchester City",
+        "nationality": "England"
+    },
+    {
+        "player_id": "ed1e53f3",
+        "player_name": "Phil Foden",
+        "position": "FW-MF (AM) ▪",
+        "footed": "Left",
+        "club": "Manchester City",
+        "nationality": "England"
+    },
+    {
+        "player_id": "e46012d4",
+        "player_name": "Kevin De Bruyne",
+        "position": "FW-MF (AM-CM-WM) ▪",
+        "footed": "Right",
+        "club": "Manchester City",
+        "nationality": "Belgium"
+    },
+    {
+        "player_id": "6434f10d",
+        "player_name": "Rodri",
+        "position": "DF-MF (CM-DM) ▪",
+        "footed": "Right",
+        "club": "Manchester City",
+        "nationality": "Spain"
+    },
+    {
+        "player_id": "79c0821a",
+        "player_name": "Mateo Kovačić",
+        "position": "MF (CM-DM-WM) ▪",
+        "footed": "Right",
+        "club": "Manchester City",
+        "nationality": "Croatia"
+    },
+    {
+        "player_id": "eaeca114",
+        "player_name": "Nathan Aké",
+        "position": "DF-MF (CB-FB, left) ▪",
+        "footed": "Left",
+        "club": "Manchester City",
+        "nationality": "Netherlands"
+    },
+    {
+        "player_id": "89ac64a6",
+        "player_name": "Manuel Akanji",
+        "position": "DF-MF (CB) ▪",
+        "footed": "Right",
+        "club": "Manchester City",
+        "nationality": "Switzerland"
+    },
+    {
+        "player_id": "5ad50391",
+        "player_name": "Joško Gvardiol",
+        "position": "DF (CB-FB, left) ▪",
+        "footed": "Left",
+        "club": "Manchester City",
+        "nationality": "Croatia"
+    },
+    {
+        "player_id": "86dd77d1",
+        "player_name": "Kyle Walker",
+        "position": "DF-MF (FB, right) ▪",
+        "footed": "Right",
+        "club": "Manchester City",
+        "nationality": "England"
+    },
+    {
+        "player_id": "3bb7b8b4",
+        "player_name": "Ederson",
+        "position": "GK ▪",
+        "footed": "Left",
+        "club": "Manchester City",
+        "nationality": "Brazil"
+    }
+]

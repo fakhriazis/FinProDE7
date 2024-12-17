@@ -1,0 +1,32 @@
+[2024-12-13T21:15:14.385+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_premierleague_to_analisis.transfer_matches manual__2024-12-13T21:15:05.984213+00:00 [queued]>
+[2024-12-13T21:15:14.406+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_premierleague_to_analisis.transfer_matches manual__2024-12-13T21:15:05.984213+00:00 [queued]>
+[2024-12-13T21:15:14.407+0000] {taskinstance.py:1308} INFO - Starting attempt 2 of 2
+[2024-12-13T21:15:14.432+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): transfer_matches> on 2024-12-13 21:15:05.984213+00:00
+[2024-12-13T21:15:14.438+0000] {standard_task_runner.py:57} INFO - Started process 50536 to run task
+[2024-12-13T21:15:14.446+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'etl_premierleague_to_analisis', 'transfer_matches', 'manual__2024-12-13T21:15:05.984213+00:00', '--job-id', '171', '--raw', '--subdir', 'DAGS_FOLDER/etl_premierleague_to_analisis.py', '--cfg-path', '/tmp/tmpks6egyx2']
+[2024-12-13T21:15:14.464+0000] {standard_task_runner.py:85} INFO - Job 171: Subtask transfer_matches
+[2024-12-13T21:15:14.582+0000] {task_command.py:410} INFO - Running <TaskInstance: etl_premierleague_to_analisis.transfer_matches manual__2024-12-13T21:15:05.984213+00:00 [running]> on host 653f470dc9b4
+[2024-12-13T21:15:14.777+0000] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='etl_premierleague_to_analisis' AIRFLOW_CTX_TASK_ID='transfer_matches' AIRFLOW_CTX_EXECUTION_DATE='2024-12-13T21:15:05.984213+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-13T21:15:05.984213+00:00'
+[2024-12-13T21:15:14.820+0000] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/etl_premierleague_to_analisis.py", line 21, in transfer_table_in_same_connection
+    source_data = db_hook.get_records(source_query)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 235, in get_records
+    return self.run(sql=sql, parameters=parameters, handler=fetch_all_handler)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 342, in run
+    with closing(self.get_conn()) as conn:
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/postgres/hooks/postgres.py", line 118, in get_conn
+    conn = deepcopy(self.connection or self.get_connection(conn_id))
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/hooks/base.py", line 72, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/connection.py", line 434, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `postgres` isn't defined
+[2024-12-13T21:15:14.828+0000] {taskinstance.py:1345} INFO - Marking task as FAILED. dag_id=etl_premierleague_to_analisis, task_id=transfer_matches, execution_date=20241213T211505, start_date=20241213T211514, end_date=20241213T211514
+[2024-12-13T21:15:14.839+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 171 for task transfer_matches (The conn_id `postgres` isn't defined; 50536)
+[2024-12-13T21:15:14.880+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2024-12-13T21:15:14.957+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

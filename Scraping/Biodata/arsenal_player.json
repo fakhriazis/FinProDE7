@@ -1,0 +1,82 @@
+[
+    {
+        "player_id": "fed7cb61",
+        "player_name": "Kai Havertz",
+        "position": "FW-MF (AM-CM-WM) ▪",
+        "footed": "Left",
+        "club": "Arsenal",
+        "nationality": "Germany"
+    },
+    {
+        "player_id": "48a5a5d6",
+        "player_name": "Gabriel Martinelli",
+        "position": "FW-MF ▪",
+        "footed": "Right",
+        "club": "Arsenal",
+        "nationality": "Brazil"
+    },
+    {
+        "player_id": "79300479",
+        "player_name": "Martin Ødegaard",
+        "position": "FW-MF (AM-CM-WM) ▪",
+        "footed": "Left",
+        "club": "Arsenal",
+        "nationality": "Norway"
+    },
+    {
+        "player_id": "1c7012b8",
+        "player_name": "Declan Rice",
+        "position": "DF-MF (CM-DM) ▪",
+        "footed": "Right",
+        "club": "Arsenal",
+        "nationality": "England"
+    },
+    {
+        "player_id": "529f49ab",
+        "player_name": "Thomas Partey",
+        "position": "MF (CM-DM) ▪",
+        "footed": "Right",
+        "club": "Arsenal",
+        "nationality": "Ghana"
+    },
+    {
+        "player_id": "972aeb2a",
+        "player_name": "William Saliba",
+        "position": "DF (CB, right) ▪",
+        "footed": "Right",
+        "club": "Arsenal",
+        "nationality": "France"
+    },
+    {
+        "player_id": "67ac5bb8",
+        "player_name": "Gabriel Magalhães",
+        "position": "DF (CB, left) ▪",
+        "footed": "Left",
+        "club": "Arsenal",
+        "nationality": "Brazil"
+    },
+    {
+        "player_id": "35e413f1",
+        "player_name": "Ben White",
+        "position": "DF (CB-FB, right) ▪",
+        "footed": "Right",
+        "club": "Arsenal",
+        "nationality": "England"
+    },
+    {
+        "player_id": "51cf8561",
+        "player_name": "Oleksandr Zinchenko",
+        "position": "DF-MF (FB, left) ▪",
+        "footed": "Left",
+        "club": "Arsenal",
+        "nationality": "Ukraine"
+    },
+    {
+        "player_id": "98ea5115",
+        "player_name": "David Raya",
+        "position": "GK ▪",
+        "footed": "Right",
+        "club": "Arsenal",
+        "nationality": "Spain"
+    }
+]

@@ -1,0 +1,14 @@
+[2024-12-13T17:55:40.776+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: thomas_partey_to_postgres_etl.transform_data manual__2024-12-13T17:55:37.188884+00:00 [queued]>
+[2024-12-13T17:55:40.782+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: thomas_partey_to_postgres_etl.transform_data manual__2024-12-13T17:55:37.188884+00:00 [queued]>
+[2024-12-13T17:55:40.783+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2024-12-13T17:55:40.790+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): transform_data> on 2024-12-13 17:55:37.188884+00:00
+[2024-12-13T17:55:40.796+0000] {standard_task_runner.py:57} INFO - Started process 75542 to run task
+[2024-12-13T17:55:40.799+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'thomas_partey_to_postgres_etl', 'transform_data', 'manual__2024-12-13T17:55:37.188884+00:00', '--job-id', '132', '--raw', '--subdir', 'DAGS_FOLDER/thomas_partey_to_postgres_etl.py', '--cfg-path', '/tmp/tmp0jnrckeq']
+[2024-12-13T17:55:40.802+0000] {standard_task_runner.py:85} INFO - Job 132: Subtask transform_data
+[2024-12-13T17:55:40.861+0000] {task_command.py:410} INFO - Running <TaskInstance: thomas_partey_to_postgres_etl.transform_data manual__2024-12-13T17:55:37.188884+00:00 [running]> on host 653f470dc9b4
+[2024-12-13T17:55:41.107+0000] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='thomas_partey_to_postgres_etl' AIRFLOW_CTX_TASK_ID='transform_data' AIRFLOW_CTX_EXECUTION_DATE='2024-12-13T17:55:37.188884+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-13T17:55:37.188884+00:00'
+[2024-12-13T17:55:41.122+0000] {logging_mixin.py:149} INFO - Data cleaned and saved to /tmp/cleaned_data.csv
+[2024-12-13T17:55:41.123+0000] {python.py:183} INFO - Done. Returned value was: None
+[2024-12-13T17:55:41.130+0000] {taskinstance.py:1345} INFO - Marking task as SUCCESS. dag_id=thomas_partey_to_postgres_etl, task_id=transform_data, execution_date=20241213T175537, start_date=20241213T175540, end_date=20241213T175541
+[2024-12-13T17:55:41.183+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-12-13T17:55:41.198+0000] {taskinstance.py:2653} INFO - 1 downstream tasks scheduled from follow-on schedule check

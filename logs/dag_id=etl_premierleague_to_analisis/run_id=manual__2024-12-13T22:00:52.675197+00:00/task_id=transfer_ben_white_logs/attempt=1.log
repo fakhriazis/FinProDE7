@@ -1,0 +1,36 @@
+[2024-12-13T22:01:01.511+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_premierleague_to_analisis.transfer_ben_white_logs manual__2024-12-13T22:00:52.675197+00:00 [queued]>
+[2024-12-13T22:01:01.606+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_premierleague_to_analisis.transfer_ben_white_logs manual__2024-12-13T22:00:52.675197+00:00 [queued]>
+[2024-12-13T22:01:01.611+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2024-12-13T22:01:02.157+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): transfer_ben_white_logs> on 2024-12-13 22:00:52.675197+00:00
+[2024-12-13T22:01:02.272+0000] {standard_task_runner.py:57} INFO - Started process 67892 to run task
+[2024-12-13T22:01:02.344+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'etl_premierleague_to_analisis', 'transfer_ben_white_logs', 'manual__2024-12-13T22:00:52.675197+00:00', '--job-id', '243', '--raw', '--subdir', 'DAGS_FOLDER/etl_premierleague_to_analisis.py', '--cfg-path', '/tmp/tmptgybtyjn']
+[2024-12-13T22:01:02.415+0000] {standard_task_runner.py:85} INFO - Job 243: Subtask transfer_ben_white_logs
+[2024-12-13T22:01:04.018+0000] {task_command.py:410} INFO - Running <TaskInstance: etl_premierleague_to_analisis.transfer_ben_white_logs manual__2024-12-13T22:00:52.675197+00:00 [running]> on host 653f470dc9b4
+[2024-12-13T22:01:06.016+0000] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='etl_premierleague_to_analisis' AIRFLOW_CTX_TASK_ID='transfer_ben_white_logs' AIRFLOW_CTX_EXECUTION_DATE='2024-12-13T22:00:52.675197+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-13T22:00:52.675197+00:00'
+[2024-12-13T22:01:06.276+0000] {base.py:73} INFO - Using connection ID 'shared_postgres' for task execution.
+[2024-12-13T22:01:06.423+0000] {sql.py:375} INFO - Running statement: SELECT Unnamed: 0, header_performance, header_expected, header_sca, header_passes, header_carries, header_take_ons, date, dayofweek, comp, round, venue, result, team, opponent, game_started, position, minutes, goals, assists, pens_made, pens_att, shots, shots_on_target, cards_yellow, cards_red, touches, tackles, interceptions, blocks, xg, npxg, xg_assist, sca, gca, passes_completed, passes, passes_pct, progressive_passes, carries, progressive_carries, take_ons, take_ons_won, match_report FROM premierleague.public.ben_white_logs, parameters: None
+[2024-12-13T22:01:06.620+0000] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/etl_premierleague_to_analisis.py", line 35, in transfer_table_in_same_connection
+    source_data = db_hook.get_records(source_query)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 235, in get_records
+    return self.run(sql=sql, parameters=parameters, handler=fetch_all_handler)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 349, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 380, in _run_command
+    cur.execute(sql_statement)
+psycopg2.errors.SyntaxError: syntax error at or near ":"
+LINE 1: SELECT Unnamed: 0, header_performance, header_expected, head...
+                      ^
+
+[2024-12-13T22:01:07.176+0000] {taskinstance.py:1345} INFO - Marking task as UP_FOR_RETRY. dag_id=etl_premierleague_to_analisis, task_id=transfer_ben_white_logs, execution_date=20241213T220052, start_date=20241213T220101, end_date=20241213T220107
+[2024-12-13T22:01:07.472+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 243 for task transfer_ben_white_logs (syntax error at or near ":"
+LINE 1: SELECT Unnamed: 0, header_performance, header_expected, head...
+                      ^
+; 67892)
+[2024-12-13T22:01:08.113+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2024-12-13T22:01:08.454+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

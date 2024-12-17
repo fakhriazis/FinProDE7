@@ -1,0 +1,32 @@
+[2024-12-17T03:01:58.075+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: arsenal_mancity_etl.mancity_etl_group.etl_mancity_task manual__2024-12-17T03:01:53.955292+00:00 [queued]>
+[2024-12-17T03:01:58.094+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: arsenal_mancity_etl.mancity_etl_group.etl_mancity_task manual__2024-12-17T03:01:53.955292+00:00 [queued]>
+[2024-12-17T03:01:58.096+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2024-12-17T03:01:58.111+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): mancity_etl_group.etl_mancity_task> on 2024-12-17 03:01:53.955292+00:00
+[2024-12-17T03:01:58.121+0000] {standard_task_runner.py:57} INFO - Started process 79772 to run task
+[2024-12-17T03:01:58.134+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'arsenal_mancity_etl', 'mancity_etl_group.etl_mancity_task', 'manual__2024-12-17T03:01:53.955292+00:00', '--job-id', '317', '--raw', '--subdir', 'DAGS_FOLDER/arsenal_mancity_etl.py', '--cfg-path', '/tmp/tmpz17wy4o0']
+[2024-12-17T03:01:58.139+0000] {standard_task_runner.py:85} INFO - Job 317: Subtask mancity_etl_group.etl_mancity_task
+[2024-12-17T03:01:58.210+0000] {task_command.py:410} INFO - Running <TaskInstance: arsenal_mancity_etl.mancity_etl_group.etl_mancity_task manual__2024-12-17T03:01:53.955292+00:00 [running]> on host 653f470dc9b4
+[2024-12-17T03:01:58.316+0000] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='arsenal_mancity_etl' AIRFLOW_CTX_TASK_ID='mancity_etl_group.etl_mancity_task' AIRFLOW_CTX_EXECUTION_DATE='2024-12-17T03:01:53.955292+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-17T03:01:53.955292+00:00'
+[2024-12-17T03:01:59.271+0000] {logging_mixin.py:149} INFO - Processing file: ederson_match_logs_2023_2024.json
+[2024-12-17T03:01:59.272+0000] {logging_mixin.py:149} INFO - Columns in DataFrame: ['', 'header_performance', 'header_pk', 'header_passes_launched', 'header_passes', 'header_goal_kicks', 'header_crosses_gk', 'header_sweeper', 'date', 'dayofweek', 'comp', 'round', 'venue', 'result', 'team', 'opponent', 'game_started', 'position', 'minutes', 'gk_shots_on_target_against', 'gk_goals_against', 'gk_saves', 'gk_save_pct', 'gk_clean_sheets', 'gk_psxg', 'gk_pens_att', 'gk_pens_allowed', 'gk_pens_saved', 'gk_pens_missed', 'gk_passes_completed_launched', 'gk_passes_launched', 'gk_passes_pct_launched', 'gk_passes', 'gk_passes_throws', 'gk_pct_passes_launched', 'gk_passes_length_avg', 'gk_goal_kicks', 'gk_pct_goal_kicks_launched', 'gk_goal_kick_length_avg', 'gk_crosses', 'gk_crosses_stopped', 'gk_crosses_stopped_pct', 'gk_def_actions_outside_pen_area', 'gk_avg_distance_def_actions', 'match_report']
+[2024-12-17T03:01:59.275+0000] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/arsenal_mancity_etl.py", line 128, in etl_mancity
+    matches, player_stats, gk_stats = transform_data(player_name, df)
+  File "/opt/airflow/dags/arsenal_mancity_etl.py", line 66, in transform_data
+    matches = df[['match_id', 'date', 'opponent', 'venue', 'result', 'goals_scored', 'goals_conceded']].drop_duplicates()
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/frame.py", line 3813, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 6070, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 6133, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['match_id', 'goals_scored', 'goals_conceded'] not in index"
+[2024-12-17T03:01:59.313+0000] {taskinstance.py:1345} INFO - Marking task as UP_FOR_RETRY. dag_id=arsenal_mancity_etl, task_id=mancity_etl_group.etl_mancity_task, execution_date=20241217T030153, start_date=20241217T030158, end_date=20241217T030159
+[2024-12-17T03:01:59.344+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 317 for task mancity_etl_group.etl_mancity_task ("['match_id', 'goals_scored', 'goals_conceded'] not in index"; 79772)
+[2024-12-17T03:01:59.384+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2024-12-17T03:01:59.464+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

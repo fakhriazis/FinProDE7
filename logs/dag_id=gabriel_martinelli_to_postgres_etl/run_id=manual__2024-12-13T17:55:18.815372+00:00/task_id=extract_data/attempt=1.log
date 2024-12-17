@@ -1,0 +1,14 @@
+[2024-12-13T17:55:20.359+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: gabriel_martinelli_to_postgres_etl.extract_data manual__2024-12-13T17:55:18.815372+00:00 [queued]>
+[2024-12-13T17:55:20.363+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: gabriel_martinelli_to_postgres_etl.extract_data manual__2024-12-13T17:55:18.815372+00:00 [queued]>
+[2024-12-13T17:55:20.364+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2024-12-13T17:55:20.370+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): extract_data> on 2024-12-13 17:55:18.815372+00:00
+[2024-12-13T17:55:20.378+0000] {standard_task_runner.py:57} INFO - Started process 75221 to run task
+[2024-12-13T17:55:20.382+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'gabriel_martinelli_to_postgres_etl', 'extract_data', 'manual__2024-12-13T17:55:18.815372+00:00', '--job-id', '119', '--raw', '--subdir', 'DAGS_FOLDER/gabriel_martinelli_to_postgres_etl.py', '--cfg-path', '/tmp/tmpiizxtkmf']
+[2024-12-13T17:55:20.384+0000] {standard_task_runner.py:85} INFO - Job 119: Subtask extract_data
+[2024-12-13T17:55:20.431+0000] {task_command.py:410} INFO - Running <TaskInstance: gabriel_martinelli_to_postgres_etl.extract_data manual__2024-12-13T17:55:18.815372+00:00 [running]> on host 653f470dc9b4
+[2024-12-13T17:55:20.638+0000] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='gabriel_martinelli_to_postgres_etl' AIRFLOW_CTX_TASK_ID='extract_data' AIRFLOW_CTX_EXECUTION_DATE='2024-12-13T17:55:18.815372+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-13T17:55:18.815372+00:00'
+[2024-12-13T17:55:20.731+0000] {logging_mixin.py:149} INFO - File gabriel_martinelli_match_logs_2023_2024.json downloaded to /tmp/data.json
+[2024-12-13T17:55:20.731+0000] {python.py:183} INFO - Done. Returned value was: None
+[2024-12-13T17:55:20.739+0000] {taskinstance.py:1345} INFO - Marking task as SUCCESS. dag_id=gabriel_martinelli_to_postgres_etl, task_id=extract_data, execution_date=20241213T175518, start_date=20241213T175520, end_date=20241213T175520
+[2024-12-13T17:55:20.780+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-12-13T17:55:20.805+0000] {taskinstance.py:2653} INFO - 1 downstream tasks scheduled from follow-on schedule check

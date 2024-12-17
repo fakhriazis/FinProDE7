@@ -1,0 +1,14 @@
+[2024-12-13T17:55:25.943+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: kai_havertz_to_postgres_etl.extract_data manual__2024-12-13T17:55:24.313158+00:00 [queued]>
+[2024-12-13T17:55:25.958+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: kai_havertz_to_postgres_etl.extract_data manual__2024-12-13T17:55:24.313158+00:00 [queued]>
+[2024-12-13T17:55:25.959+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2024-12-13T17:55:25.972+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): extract_data> on 2024-12-13 17:55:24.313158+00:00
+[2024-12-13T17:55:25.985+0000] {standard_task_runner.py:57} INFO - Started process 75274 to run task
+[2024-12-13T17:55:25.990+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'kai_havertz_to_postgres_etl', 'extract_data', 'manual__2024-12-13T17:55:24.313158+00:00', '--job-id', '122', '--raw', '--subdir', 'DAGS_FOLDER/kai_havertz_to_postgres_etl.py', '--cfg-path', '/tmp/tmpj6zi03cj']
+[2024-12-13T17:55:26.004+0000] {standard_task_runner.py:85} INFO - Job 122: Subtask extract_data
+[2024-12-13T17:55:26.149+0000] {task_command.py:410} INFO - Running <TaskInstance: kai_havertz_to_postgres_etl.extract_data manual__2024-12-13T17:55:24.313158+00:00 [running]> on host 653f470dc9b4
+[2024-12-13T17:55:26.777+0000] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='kai_havertz_to_postgres_etl' AIRFLOW_CTX_TASK_ID='extract_data' AIRFLOW_CTX_EXECUTION_DATE='2024-12-13T17:55:24.313158+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-13T17:55:24.313158+00:00'
+[2024-12-13T17:55:26.902+0000] {logging_mixin.py:149} INFO - File kai_havertz_match_logs_2023_2024.json downloaded to /tmp/data.json
+[2024-12-13T17:55:26.903+0000] {python.py:183} INFO - Done. Returned value was: None
+[2024-12-13T17:55:26.918+0000] {taskinstance.py:1345} INFO - Marking task as SUCCESS. dag_id=kai_havertz_to_postgres_etl, task_id=extract_data, execution_date=20241213T175524, start_date=20241213T175525, end_date=20241213T175526
+[2024-12-13T17:55:26.978+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-12-13T17:55:27.019+0000] {taskinstance.py:2653} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,36 @@
+[2024-12-13T21:37:58.164+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_premierleague_to_analisis.transfer_teamstats manual__2024-12-13T21:37:51.104851+00:00 [queued]>
+[2024-12-13T21:37:58.194+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_premierleague_to_analisis.transfer_teamstats manual__2024-12-13T21:37:51.104851+00:00 [queued]>
+[2024-12-13T21:37:58.195+0000] {taskinstance.py:1308} INFO - Starting attempt 2 of 2
+[2024-12-13T21:37:58.274+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): transfer_teamstats> on 2024-12-13 21:37:51.104851+00:00
+[2024-12-13T21:37:58.278+0000] {standard_task_runner.py:57} INFO - Started process 59300 to run task
+[2024-12-13T21:37:58.287+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'etl_premierleague_to_analisis', 'transfer_teamstats', 'manual__2024-12-13T21:37:51.104851+00:00', '--job-id', '194', '--raw', '--subdir', 'DAGS_FOLDER/etl_premierleague_to_analisis.py', '--cfg-path', '/tmp/tmputyib7oz']
+[2024-12-13T21:37:58.309+0000] {standard_task_runner.py:85} INFO - Job 194: Subtask transfer_teamstats
+[2024-12-13T21:37:58.456+0000] {task_command.py:410} INFO - Running <TaskInstance: etl_premierleague_to_analisis.transfer_teamstats manual__2024-12-13T21:37:51.104851+00:00 [running]> on host 653f470dc9b4
+[2024-12-13T21:37:58.771+0000] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='etl_premierleague_to_analisis' AIRFLOW_CTX_TASK_ID='transfer_teamstats' AIRFLOW_CTX_EXECUTION_DATE='2024-12-13T21:37:51.104851+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-13T21:37:51.104851+00:00'
+[2024-12-13T21:37:58.813+0000] {base.py:73} INFO - Using connection ID 'shared_postgres' for task execution.
+[2024-12-13T21:37:58.836+0000] {sql.py:375} INFO - Running statement: SELECT team_stat_id, match_id, possession_percentage, shots, shots_on_target, passes_completed, tackles, interceptions, fouls_committed, yellow_cards, red_cards, xg FROM premierleague.public.team_stats_source, parameters: None
+[2024-12-13T21:37:58.840+0000] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/etl_premierleague_to_analisis.py", line 22, in transfer_table_in_same_connection
+    source_data = db_hook.get_records(source_query)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 235, in get_records
+    return self.run(sql=sql, parameters=parameters, handler=fetch_all_handler)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 349, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 380, in _run_command
+    cur.execute(sql_statement)
+psycopg2.errors.UndefinedTable: relation "public.team_stats_source" does not exist
+LINE 1: ...fouls_committed, yellow_cards, red_cards, xg FROM premierlea...
+                                                             ^
+
+[2024-12-13T21:37:58.868+0000] {taskinstance.py:1345} INFO - Marking task as FAILED. dag_id=etl_premierleague_to_analisis, task_id=transfer_teamstats, execution_date=20241213T213751, start_date=20241213T213758, end_date=20241213T213758
+[2024-12-13T21:37:58.899+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 194 for task transfer_teamstats (relation "public.team_stats_source" does not exist
+LINE 1: ...fouls_committed, yellow_cards, red_cards, xg FROM premierlea...
+                                                             ^
+; 59300)
+[2024-12-13T21:37:58.925+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2024-12-13T21:37:59.089+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check
