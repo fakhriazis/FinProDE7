@@ -9819,3 +9819,101 @@
 [2024-12-17T15:39:56.396+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:39:56.395+0000] {dag.py:2726} INFO - Sync 1 DAGs
 [2024-12-17T15:39:56.453+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:39:56.453+0000] {dag.py:3486} INFO - Setting next_dagrun for bukayo_saka_to_postgres_etl to None, run_after=None
 [2024-12-17T15:39:56.466+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/bukayo_saka_to_postgres_etl.py took 0.524 seconds
+[2024-12-17T15:40:26.728+0000] {processor.py:157} INFO - Started process (PID=78993) to work on /opt/airflow/dags/bukayo_saka_to_postgres_etl.py
+[2024-12-17T15:40:26.729+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/bukayo_saka_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:40:26.729+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:40:26.729+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/bukayo_saka_to_postgres_etl.py
+[2024-12-17T15:40:27.162+0000] {processor.py:836} INFO - DAG(s) dict_keys(['bukayo_saka_to_postgres_etl']) retrieved from /opt/airflow/dags/bukayo_saka_to_postgres_etl.py
+[2024-12-17T15:40:27.181+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:40:27.180+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:40:27.194+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:40:27.194+0000] {dag.py:3486} INFO - Setting next_dagrun for bukayo_saka_to_postgres_etl to None, run_after=None
+[2024-12-17T15:40:27.203+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/bukayo_saka_to_postgres_etl.py took 0.478 seconds
+[2024-12-17T15:40:57.637+0000] {processor.py:157} INFO - Started process (PID=79198) to work on /opt/airflow/dags/bukayo_saka_to_postgres_etl.py
+[2024-12-17T15:40:57.639+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/bukayo_saka_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:40:57.639+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:40:57.639+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/bukayo_saka_to_postgres_etl.py
+[2024-12-17T15:40:58.107+0000] {processor.py:836} INFO - DAG(s) dict_keys(['bukayo_saka_to_postgres_etl']) retrieved from /opt/airflow/dags/bukayo_saka_to_postgres_etl.py
+[2024-12-17T15:40:58.138+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:40:58.137+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:40:58.168+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:40:58.167+0000] {dag.py:3486} INFO - Setting next_dagrun for bukayo_saka_to_postgres_etl to None, run_after=None
+[2024-12-17T15:40:58.181+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/bukayo_saka_to_postgres_etl.py took 0.547 seconds
+[2024-12-17T15:41:28.466+0000] {processor.py:157} INFO - Started process (PID=79403) to work on /opt/airflow/dags/bukayo_saka_to_postgres_etl.py
+[2024-12-17T15:41:28.469+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/bukayo_saka_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:41:28.471+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:41:28.470+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/bukayo_saka_to_postgres_etl.py
+[2024-12-17T15:41:29.176+0000] {processor.py:836} INFO - DAG(s) dict_keys(['bukayo_saka_to_postgres_etl']) retrieved from /opt/airflow/dags/bukayo_saka_to_postgres_etl.py
+[2024-12-17T15:41:29.228+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:41:29.227+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:41:29.257+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:41:29.257+0000] {dag.py:3486} INFO - Setting next_dagrun for bukayo_saka_to_postgres_etl to None, run_after=None
+[2024-12-17T15:41:29.272+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/bukayo_saka_to_postgres_etl.py took 0.814 seconds
+[2024-12-17T15:41:59.698+0000] {processor.py:157} INFO - Started process (PID=79608) to work on /opt/airflow/dags/bukayo_saka_to_postgres_etl.py
+[2024-12-17T15:41:59.699+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/bukayo_saka_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:41:59.699+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:41:59.699+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/bukayo_saka_to_postgres_etl.py
+[2024-12-17T15:42:00.138+0000] {processor.py:836} INFO - DAG(s) dict_keys(['bukayo_saka_to_postgres_etl']) retrieved from /opt/airflow/dags/bukayo_saka_to_postgres_etl.py
+[2024-12-17T15:42:00.170+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:42:00.169+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:42:00.186+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:42:00.186+0000] {dag.py:3486} INFO - Setting next_dagrun for bukayo_saka_to_postgres_etl to None, run_after=None
+[2024-12-17T15:42:00.196+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/bukayo_saka_to_postgres_etl.py took 0.502 seconds
+[2024-12-17T15:42:30.725+0000] {processor.py:157} INFO - Started process (PID=79813) to work on /opt/airflow/dags/bukayo_saka_to_postgres_etl.py
+[2024-12-17T15:42:30.727+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/bukayo_saka_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:42:30.728+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:42:30.728+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/bukayo_saka_to_postgres_etl.py
+[2024-12-17T15:42:31.149+0000] {processor.py:836} INFO - DAG(s) dict_keys(['bukayo_saka_to_postgres_etl']) retrieved from /opt/airflow/dags/bukayo_saka_to_postgres_etl.py
+[2024-12-17T15:42:31.168+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:42:31.168+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:42:31.182+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:42:31.181+0000] {dag.py:3486} INFO - Setting next_dagrun for bukayo_saka_to_postgres_etl to None, run_after=None
+[2024-12-17T15:42:31.192+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/bukayo_saka_to_postgres_etl.py took 0.471 seconds
+[2024-12-17T15:43:02.059+0000] {processor.py:157} INFO - Started process (PID=80018) to work on /opt/airflow/dags/bukayo_saka_to_postgres_etl.py
+[2024-12-17T15:43:02.060+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/bukayo_saka_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:43:02.061+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:02.061+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/bukayo_saka_to_postgres_etl.py
+[2024-12-17T15:43:02.420+0000] {processor.py:836} INFO - DAG(s) dict_keys(['bukayo_saka_to_postgres_etl']) retrieved from /opt/airflow/dags/bukayo_saka_to_postgres_etl.py
+[2024-12-17T15:43:02.444+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:02.444+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:43:02.471+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:02.471+0000] {dag.py:3486} INFO - Setting next_dagrun for bukayo_saka_to_postgres_etl to None, run_after=None
+[2024-12-17T15:43:02.496+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/bukayo_saka_to_postgres_etl.py took 0.441 seconds
+[2024-12-17T15:43:33.163+0000] {processor.py:157} INFO - Started process (PID=80223) to work on /opt/airflow/dags/bukayo_saka_to_postgres_etl.py
+[2024-12-17T15:43:33.164+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/bukayo_saka_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:43:33.165+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:33.165+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/bukayo_saka_to_postgres_etl.py
+[2024-12-17T15:43:33.582+0000] {processor.py:836} INFO - DAG(s) dict_keys(['bukayo_saka_to_postgres_etl']) retrieved from /opt/airflow/dags/bukayo_saka_to_postgres_etl.py
+[2024-12-17T15:43:33.614+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:33.613+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:43:33.629+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:33.629+0000] {dag.py:3486} INFO - Setting next_dagrun for bukayo_saka_to_postgres_etl to None, run_after=None
+[2024-12-17T15:43:33.639+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/bukayo_saka_to_postgres_etl.py took 0.482 seconds
+[2024-12-17T15:44:03.873+0000] {processor.py:157} INFO - Started process (PID=80428) to work on /opt/airflow/dags/bukayo_saka_to_postgres_etl.py
+[2024-12-17T15:44:03.874+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/bukayo_saka_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:44:03.874+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:03.874+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/bukayo_saka_to_postgres_etl.py
+[2024-12-17T15:44:04.239+0000] {processor.py:836} INFO - DAG(s) dict_keys(['bukayo_saka_to_postgres_etl']) retrieved from /opt/airflow/dags/bukayo_saka_to_postgres_etl.py
+[2024-12-17T15:44:04.255+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:04.255+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:44:04.267+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:04.266+0000] {dag.py:3486} INFO - Setting next_dagrun for bukayo_saka_to_postgres_etl to None, run_after=None
+[2024-12-17T15:44:04.277+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/bukayo_saka_to_postgres_etl.py took 0.406 seconds
+[2024-12-17T15:44:34.574+0000] {processor.py:157} INFO - Started process (PID=80640) to work on /opt/airflow/dags/bukayo_saka_to_postgres_etl.py
+[2024-12-17T15:44:34.576+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/bukayo_saka_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:44:34.577+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:34.577+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/bukayo_saka_to_postgres_etl.py
+[2024-12-17T15:44:34.992+0000] {processor.py:836} INFO - DAG(s) dict_keys(['bukayo_saka_to_postgres_etl']) retrieved from /opt/airflow/dags/bukayo_saka_to_postgres_etl.py
+[2024-12-17T15:44:35.024+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:35.024+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:44:35.039+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:35.039+0000] {dag.py:3486} INFO - Setting next_dagrun for bukayo_saka_to_postgres_etl to None, run_after=None
+[2024-12-17T15:44:35.052+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/bukayo_saka_to_postgres_etl.py took 0.489 seconds
+[2024-12-17T15:45:06.038+0000] {processor.py:157} INFO - Started process (PID=80851) to work on /opt/airflow/dags/bukayo_saka_to_postgres_etl.py
+[2024-12-17T15:45:06.039+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/bukayo_saka_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:45:06.040+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:06.040+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/bukayo_saka_to_postgres_etl.py
+[2024-12-17T15:45:06.425+0000] {processor.py:836} INFO - DAG(s) dict_keys(['bukayo_saka_to_postgres_etl']) retrieved from /opt/airflow/dags/bukayo_saka_to_postgres_etl.py
+[2024-12-17T15:45:06.451+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:06.451+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:45:06.469+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:06.469+0000] {dag.py:3486} INFO - Setting next_dagrun for bukayo_saka_to_postgres_etl to None, run_after=None
+[2024-12-17T15:45:06.489+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/bukayo_saka_to_postgres_etl.py took 0.453 seconds
+[2024-12-17T15:45:36.932+0000] {processor.py:157} INFO - Started process (PID=81055) to work on /opt/airflow/dags/bukayo_saka_to_postgres_etl.py
+[2024-12-17T15:45:36.933+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/bukayo_saka_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:45:36.933+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:36.933+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/bukayo_saka_to_postgres_etl.py
+[2024-12-17T15:45:37.386+0000] {processor.py:836} INFO - DAG(s) dict_keys(['bukayo_saka_to_postgres_etl']) retrieved from /opt/airflow/dags/bukayo_saka_to_postgres_etl.py
+[2024-12-17T15:45:37.407+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:37.407+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:45:37.420+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:37.420+0000] {dag.py:3486} INFO - Setting next_dagrun for bukayo_saka_to_postgres_etl to None, run_after=None
+[2024-12-17T15:45:37.431+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/bukayo_saka_to_postgres_etl.py took 0.502 seconds
+[2024-12-17T15:46:07.776+0000] {processor.py:157} INFO - Started process (PID=81261) to work on /opt/airflow/dags/bukayo_saka_to_postgres_etl.py
+[2024-12-17T15:46:07.777+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/bukayo_saka_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:46:07.778+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:07.778+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/bukayo_saka_to_postgres_etl.py
+[2024-12-17T15:46:08.141+0000] {processor.py:836} INFO - DAG(s) dict_keys(['bukayo_saka_to_postgres_etl']) retrieved from /opt/airflow/dags/bukayo_saka_to_postgres_etl.py
+[2024-12-17T15:46:08.158+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:08.158+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:46:08.169+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:08.169+0000] {dag.py:3486} INFO - Setting next_dagrun for bukayo_saka_to_postgres_etl to None, run_after=None
+[2024-12-17T15:46:08.177+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/bukayo_saka_to_postgres_etl.py took 0.404 seconds
+[2024-12-17T15:46:38.402+0000] {processor.py:157} INFO - Started process (PID=81466) to work on /opt/airflow/dags/bukayo_saka_to_postgres_etl.py
+[2024-12-17T15:46:38.403+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/bukayo_saka_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:46:38.403+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:38.403+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/bukayo_saka_to_postgres_etl.py
+[2024-12-17T15:46:38.859+0000] {processor.py:836} INFO - DAG(s) dict_keys(['bukayo_saka_to_postgres_etl']) retrieved from /opt/airflow/dags/bukayo_saka_to_postgres_etl.py
+[2024-12-17T15:46:38.882+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:38.882+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:46:38.896+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:38.896+0000] {dag.py:3486} INFO - Setting next_dagrun for bukayo_saka_to_postgres_etl to None, run_after=None
+[2024-12-17T15:46:38.906+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/bukayo_saka_to_postgres_etl.py took 0.506 seconds
+[2024-12-17T15:47:09.505+0000] {processor.py:157} INFO - Started process (PID=81671) to work on /opt/airflow/dags/bukayo_saka_to_postgres_etl.py
+[2024-12-17T15:47:09.506+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/bukayo_saka_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:47:09.507+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:47:09.507+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/bukayo_saka_to_postgres_etl.py
+[2024-12-17T15:47:09.889+0000] {processor.py:836} INFO - DAG(s) dict_keys(['bukayo_saka_to_postgres_etl']) retrieved from /opt/airflow/dags/bukayo_saka_to_postgres_etl.py
+[2024-12-17T15:47:09.905+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:47:09.905+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:47:09.916+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:47:09.916+0000] {dag.py:3486} INFO - Setting next_dagrun for bukayo_saka_to_postgres_etl to None, run_after=None
+[2024-12-17T15:47:09.925+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/bukayo_saka_to_postgres_etl.py took 0.422 seconds

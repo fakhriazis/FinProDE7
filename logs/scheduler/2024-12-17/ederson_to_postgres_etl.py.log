@@ -9808,3 +9808,101 @@
 [2024-12-17T15:40:04.914+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:40:04.914+0000] {dag.py:2726} INFO - Sync 1 DAGs
 [2024-12-17T15:40:04.924+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:40:04.924+0000] {dag.py:3486} INFO - Setting next_dagrun for ederson_to_postgres_etl to None, run_after=None
 [2024-12-17T15:40:04.933+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ederson_to_postgres_etl.py took 0.308 seconds
+[2024-12-17T15:40:35.438+0000] {processor.py:157} INFO - Started process (PID=79112) to work on /opt/airflow/dags/ederson_to_postgres_etl.py
+[2024-12-17T15:40:35.439+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ederson_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:40:35.439+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:40:35.439+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ederson_to_postgres_etl.py
+[2024-12-17T15:40:35.783+0000] {processor.py:836} INFO - DAG(s) dict_keys(['ederson_to_postgres_etl']) retrieved from /opt/airflow/dags/ederson_to_postgres_etl.py
+[2024-12-17T15:40:35.802+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:40:35.801+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:40:35.814+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:40:35.814+0000] {dag.py:3486} INFO - Setting next_dagrun for ederson_to_postgres_etl to None, run_after=None
+[2024-12-17T15:40:35.822+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ederson_to_postgres_etl.py took 0.387 seconds
+[2024-12-17T15:41:06.119+0000] {processor.py:157} INFO - Started process (PID=79317) to work on /opt/airflow/dags/ederson_to_postgres_etl.py
+[2024-12-17T15:41:06.120+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ederson_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:41:06.121+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:41:06.120+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ederson_to_postgres_etl.py
+[2024-12-17T15:41:06.500+0000] {processor.py:836} INFO - DAG(s) dict_keys(['ederson_to_postgres_etl']) retrieved from /opt/airflow/dags/ederson_to_postgres_etl.py
+[2024-12-17T15:41:06.521+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:41:06.521+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:41:06.534+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:41:06.534+0000] {dag.py:3486} INFO - Setting next_dagrun for ederson_to_postgres_etl to None, run_after=None
+[2024-12-17T15:41:06.543+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ederson_to_postgres_etl.py took 0.427 seconds
+[2024-12-17T15:41:37.878+0000] {processor.py:157} INFO - Started process (PID=79522) to work on /opt/airflow/dags/ederson_to_postgres_etl.py
+[2024-12-17T15:41:37.879+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ederson_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:41:37.880+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:41:37.880+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ederson_to_postgres_etl.py
+[2024-12-17T15:41:38.246+0000] {processor.py:836} INFO - DAG(s) dict_keys(['ederson_to_postgres_etl']) retrieved from /opt/airflow/dags/ederson_to_postgres_etl.py
+[2024-12-17T15:41:38.264+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:41:38.263+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:41:38.276+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:41:38.276+0000] {dag.py:3486} INFO - Setting next_dagrun for ederson_to_postgres_etl to None, run_after=None
+[2024-12-17T15:41:38.285+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ederson_to_postgres_etl.py took 0.409 seconds
+[2024-12-17T15:42:08.842+0000] {processor.py:157} INFO - Started process (PID=79717) to work on /opt/airflow/dags/ederson_to_postgres_etl.py
+[2024-12-17T15:42:08.843+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ederson_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:42:08.843+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:42:08.843+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ederson_to_postgres_etl.py
+[2024-12-17T15:42:09.227+0000] {processor.py:836} INFO - DAG(s) dict_keys(['ederson_to_postgres_etl']) retrieved from /opt/airflow/dags/ederson_to_postgres_etl.py
+[2024-12-17T15:42:09.248+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:42:09.247+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:42:09.263+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:42:09.263+0000] {dag.py:3486} INFO - Setting next_dagrun for ederson_to_postgres_etl to None, run_after=None
+[2024-12-17T15:42:09.273+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ederson_to_postgres_etl.py took 0.433 seconds
+[2024-12-17T15:42:40.282+0000] {processor.py:157} INFO - Started process (PID=79922) to work on /opt/airflow/dags/ederson_to_postgres_etl.py
+[2024-12-17T15:42:40.283+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ederson_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:42:40.284+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:42:40.284+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ederson_to_postgres_etl.py
+[2024-12-17T15:42:40.618+0000] {processor.py:836} INFO - DAG(s) dict_keys(['ederson_to_postgres_etl']) retrieved from /opt/airflow/dags/ederson_to_postgres_etl.py
+[2024-12-17T15:42:40.634+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:42:40.634+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:42:40.644+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:42:40.644+0000] {dag.py:3486} INFO - Setting next_dagrun for ederson_to_postgres_etl to None, run_after=None
+[2024-12-17T15:42:40.654+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ederson_to_postgres_etl.py took 0.375 seconds
+[2024-12-17T15:43:11.511+0000] {processor.py:157} INFO - Started process (PID=80127) to work on /opt/airflow/dags/ederson_to_postgres_etl.py
+[2024-12-17T15:43:11.511+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ederson_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:43:11.512+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:11.512+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ederson_to_postgres_etl.py
+[2024-12-17T15:43:11.841+0000] {processor.py:836} INFO - DAG(s) dict_keys(['ederson_to_postgres_etl']) retrieved from /opt/airflow/dags/ederson_to_postgres_etl.py
+[2024-12-17T15:43:11.856+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:11.856+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:43:11.867+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:11.867+0000] {dag.py:3486} INFO - Setting next_dagrun for ederson_to_postgres_etl to None, run_after=None
+[2024-12-17T15:43:11.878+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ederson_to_postgres_etl.py took 0.369 seconds
+[2024-12-17T15:43:42.745+0000] {processor.py:157} INFO - Started process (PID=80332) to work on /opt/airflow/dags/ederson_to_postgres_etl.py
+[2024-12-17T15:43:42.746+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ederson_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:43:42.746+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:42.746+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ederson_to_postgres_etl.py
+[2024-12-17T15:43:43.112+0000] {processor.py:836} INFO - DAG(s) dict_keys(['ederson_to_postgres_etl']) retrieved from /opt/airflow/dags/ederson_to_postgres_etl.py
+[2024-12-17T15:43:43.130+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:43.129+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:43:43.141+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:43.141+0000] {dag.py:3486} INFO - Setting next_dagrun for ederson_to_postgres_etl to None, run_after=None
+[2024-12-17T15:43:43.153+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ederson_to_postgres_etl.py took 0.410 seconds
+[2024-12-17T15:44:14.280+0000] {processor.py:157} INFO - Started process (PID=80537) to work on /opt/airflow/dags/ederson_to_postgres_etl.py
+[2024-12-17T15:44:14.281+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ederson_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:44:14.281+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:14.281+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ederson_to_postgres_etl.py
+[2024-12-17T15:44:14.632+0000] {processor.py:836} INFO - DAG(s) dict_keys(['ederson_to_postgres_etl']) retrieved from /opt/airflow/dags/ederson_to_postgres_etl.py
+[2024-12-17T15:44:14.648+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:14.648+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:44:14.660+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:14.660+0000] {dag.py:3486} INFO - Setting next_dagrun for ederson_to_postgres_etl to None, run_after=None
+[2024-12-17T15:44:14.671+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ederson_to_postgres_etl.py took 0.392 seconds
+[2024-12-17T15:44:45.783+0000] {processor.py:157} INFO - Started process (PID=80742) to work on /opt/airflow/dags/ederson_to_postgres_etl.py
+[2024-12-17T15:44:45.784+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ederson_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:44:45.784+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:45.784+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ederson_to_postgres_etl.py
+[2024-12-17T15:44:46.149+0000] {processor.py:836} INFO - DAG(s) dict_keys(['ederson_to_postgres_etl']) retrieved from /opt/airflow/dags/ederson_to_postgres_etl.py
+[2024-12-17T15:44:46.166+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:46.166+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:44:46.178+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:46.177+0000] {dag.py:3486} INFO - Setting next_dagrun for ederson_to_postgres_etl to None, run_after=None
+[2024-12-17T15:44:46.189+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ederson_to_postgres_etl.py took 0.409 seconds
+[2024-12-17T15:45:16.937+0000] {processor.py:157} INFO - Started process (PID=80947) to work on /opt/airflow/dags/ederson_to_postgres_etl.py
+[2024-12-17T15:45:16.937+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ederson_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:45:16.938+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:16.938+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ederson_to_postgres_etl.py
+[2024-12-17T15:45:17.271+0000] {processor.py:836} INFO - DAG(s) dict_keys(['ederson_to_postgres_etl']) retrieved from /opt/airflow/dags/ederson_to_postgres_etl.py
+[2024-12-17T15:45:17.287+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:17.287+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:45:17.301+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:17.301+0000] {dag.py:3486} INFO - Setting next_dagrun for ederson_to_postgres_etl to None, run_after=None
+[2024-12-17T15:45:17.316+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ederson_to_postgres_etl.py took 0.381 seconds
+[2024-12-17T15:45:48.390+0000] {processor.py:157} INFO - Started process (PID=81165) to work on /opt/airflow/dags/ederson_to_postgres_etl.py
+[2024-12-17T15:45:48.391+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ederson_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:45:48.392+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:48.392+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ederson_to_postgres_etl.py
+[2024-12-17T15:45:48.767+0000] {processor.py:836} INFO - DAG(s) dict_keys(['ederson_to_postgres_etl']) retrieved from /opt/airflow/dags/ederson_to_postgres_etl.py
+[2024-12-17T15:45:48.786+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:48.786+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:45:48.801+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:48.801+0000] {dag.py:3486} INFO - Setting next_dagrun for ederson_to_postgres_etl to None, run_after=None
+[2024-12-17T15:45:48.812+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ederson_to_postgres_etl.py took 0.424 seconds
+[2024-12-17T15:46:19.033+0000] {processor.py:157} INFO - Started process (PID=81370) to work on /opt/airflow/dags/ederson_to_postgres_etl.py
+[2024-12-17T15:46:19.033+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ederson_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:46:19.034+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:19.034+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ederson_to_postgres_etl.py
+[2024-12-17T15:46:19.466+0000] {processor.py:836} INFO - DAG(s) dict_keys(['ederson_to_postgres_etl']) retrieved from /opt/airflow/dags/ederson_to_postgres_etl.py
+[2024-12-17T15:46:19.484+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:19.484+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:46:19.497+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:19.497+0000] {dag.py:3486} INFO - Setting next_dagrun for ederson_to_postgres_etl to None, run_after=None
+[2024-12-17T15:46:19.506+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ederson_to_postgres_etl.py took 0.476 seconds
+[2024-12-17T15:46:50.204+0000] {processor.py:157} INFO - Started process (PID=81575) to work on /opt/airflow/dags/ederson_to_postgres_etl.py
+[2024-12-17T15:46:50.205+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ederson_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:46:50.206+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:50.206+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ederson_to_postgres_etl.py
+[2024-12-17T15:46:50.594+0000] {processor.py:836} INFO - DAG(s) dict_keys(['ederson_to_postgres_etl']) retrieved from /opt/airflow/dags/ederson_to_postgres_etl.py
+[2024-12-17T15:46:50.613+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:50.613+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:46:50.625+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:50.625+0000] {dag.py:3486} INFO - Setting next_dagrun for ederson_to_postgres_etl to None, run_after=None
+[2024-12-17T15:46:50.635+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ederson_to_postgres_etl.py took 0.432 seconds
+[2024-12-17T15:47:21.056+0000] {processor.py:157} INFO - Started process (PID=81782) to work on /opt/airflow/dags/ederson_to_postgres_etl.py
+[2024-12-17T15:47:21.057+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ederson_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:47:21.058+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:47:21.058+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ederson_to_postgres_etl.py
+[2024-12-17T15:47:21.390+0000] {processor.py:836} INFO - DAG(s) dict_keys(['ederson_to_postgres_etl']) retrieved from /opt/airflow/dags/ederson_to_postgres_etl.py
+[2024-12-17T15:47:21.405+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:47:21.405+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:47:21.416+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:47:21.416+0000] {dag.py:3486} INFO - Setting next_dagrun for ederson_to_postgres_etl to None, run_after=None
+[2024-12-17T15:47:21.426+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ederson_to_postgres_etl.py took 0.372 seconds

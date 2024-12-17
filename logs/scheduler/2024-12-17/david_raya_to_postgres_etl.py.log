@@ -9805,3 +9805,101 @@
 [2024-12-17T15:40:05.262+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:40:05.261+0000] {dag.py:2726} INFO - Sync 1 DAGs
 [2024-12-17T15:40:05.272+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:40:05.272+0000] {dag.py:3486} INFO - Setting next_dagrun for david_raya_to_postgres_etl to None, run_after=None
 [2024-12-17T15:40:05.280+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/david_raya_to_postgres_etl.py took 0.307 seconds
+[2024-12-17T15:40:35.442+0000] {processor.py:157} INFO - Started process (PID=79115) to work on /opt/airflow/dags/david_raya_to_postgres_etl.py
+[2024-12-17T15:40:35.443+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/david_raya_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:40:35.443+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:40:35.443+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/david_raya_to_postgres_etl.py
+[2024-12-17T15:40:35.801+0000] {processor.py:836} INFO - DAG(s) dict_keys(['david_raya_to_postgres_etl']) retrieved from /opt/airflow/dags/david_raya_to_postgres_etl.py
+[2024-12-17T15:40:35.817+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:40:35.817+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:40:35.829+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:40:35.829+0000] {dag.py:3486} INFO - Setting next_dagrun for david_raya_to_postgres_etl to None, run_after=None
+[2024-12-17T15:40:35.837+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/david_raya_to_postgres_etl.py took 0.397 seconds
+[2024-12-17T15:41:06.569+0000] {processor.py:157} INFO - Started process (PID=79330) to work on /opt/airflow/dags/david_raya_to_postgres_etl.py
+[2024-12-17T15:41:06.570+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/david_raya_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:41:06.570+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:41:06.570+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/david_raya_to_postgres_etl.py
+[2024-12-17T15:41:06.898+0000] {processor.py:836} INFO - DAG(s) dict_keys(['david_raya_to_postgres_etl']) retrieved from /opt/airflow/dags/david_raya_to_postgres_etl.py
+[2024-12-17T15:41:06.915+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:41:06.915+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:41:06.927+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:41:06.927+0000] {dag.py:3486} INFO - Setting next_dagrun for david_raya_to_postgres_etl to None, run_after=None
+[2024-12-17T15:41:06.935+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/david_raya_to_postgres_etl.py took 0.369 seconds
+[2024-12-17T15:41:37.880+0000] {processor.py:157} INFO - Started process (PID=79525) to work on /opt/airflow/dags/david_raya_to_postgres_etl.py
+[2024-12-17T15:41:37.880+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/david_raya_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:41:37.881+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:41:37.881+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/david_raya_to_postgres_etl.py
+[2024-12-17T15:41:38.246+0000] {processor.py:836} INFO - DAG(s) dict_keys(['david_raya_to_postgres_etl']) retrieved from /opt/airflow/dags/david_raya_to_postgres_etl.py
+[2024-12-17T15:41:38.264+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:41:38.263+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:41:38.276+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:41:38.276+0000] {dag.py:3486} INFO - Setting next_dagrun for david_raya_to_postgres_etl to None, run_after=None
+[2024-12-17T15:41:38.285+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/david_raya_to_postgres_etl.py took 0.407 seconds
+[2024-12-17T15:42:09.298+0000] {processor.py:157} INFO - Started process (PID=79740) to work on /opt/airflow/dags/david_raya_to_postgres_etl.py
+[2024-12-17T15:42:09.300+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/david_raya_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:42:09.300+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:42:09.300+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/david_raya_to_postgres_etl.py
+[2024-12-17T15:42:09.590+0000] {processor.py:836} INFO - DAG(s) dict_keys(['david_raya_to_postgres_etl']) retrieved from /opt/airflow/dags/david_raya_to_postgres_etl.py
+[2024-12-17T15:42:09.605+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:42:09.605+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:42:09.615+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:42:09.615+0000] {dag.py:3486} INFO - Setting next_dagrun for david_raya_to_postgres_etl to None, run_after=None
+[2024-12-17T15:42:09.623+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/david_raya_to_postgres_etl.py took 0.327 seconds
+[2024-12-17T15:42:40.670+0000] {processor.py:157} INFO - Started process (PID=79945) to work on /opt/airflow/dags/david_raya_to_postgres_etl.py
+[2024-12-17T15:42:40.671+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/david_raya_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:42:40.671+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:42:40.671+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/david_raya_to_postgres_etl.py
+[2024-12-17T15:42:40.965+0000] {processor.py:836} INFO - DAG(s) dict_keys(['david_raya_to_postgres_etl']) retrieved from /opt/airflow/dags/david_raya_to_postgres_etl.py
+[2024-12-17T15:42:40.981+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:42:40.981+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:42:40.996+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:42:40.995+0000] {dag.py:3486} INFO - Setting next_dagrun for david_raya_to_postgres_etl to None, run_after=None
+[2024-12-17T15:42:41.009+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/david_raya_to_postgres_etl.py took 0.341 seconds
+[2024-12-17T15:43:11.893+0000] {processor.py:157} INFO - Started process (PID=80150) to work on /opt/airflow/dags/david_raya_to_postgres_etl.py
+[2024-12-17T15:43:11.893+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/david_raya_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:43:11.894+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:11.894+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/david_raya_to_postgres_etl.py
+[2024-12-17T15:43:12.175+0000] {processor.py:836} INFO - DAG(s) dict_keys(['david_raya_to_postgres_etl']) retrieved from /opt/airflow/dags/david_raya_to_postgres_etl.py
+[2024-12-17T15:43:12.190+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:12.190+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:43:12.201+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:12.201+0000] {dag.py:3486} INFO - Setting next_dagrun for david_raya_to_postgres_etl to None, run_after=None
+[2024-12-17T15:43:12.209+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/david_raya_to_postgres_etl.py took 0.318 seconds
+[2024-12-17T15:43:43.156+0000] {processor.py:157} INFO - Started process (PID=80353) to work on /opt/airflow/dags/david_raya_to_postgres_etl.py
+[2024-12-17T15:43:43.157+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/david_raya_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:43:43.158+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:43.157+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/david_raya_to_postgres_etl.py
+[2024-12-17T15:43:43.443+0000] {processor.py:836} INFO - DAG(s) dict_keys(['david_raya_to_postgres_etl']) retrieved from /opt/airflow/dags/david_raya_to_postgres_etl.py
+[2024-12-17T15:43:43.459+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:43.459+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:43:43.470+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:43.470+0000] {dag.py:3486} INFO - Setting next_dagrun for david_raya_to_postgres_etl to None, run_after=None
+[2024-12-17T15:43:43.479+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/david_raya_to_postgres_etl.py took 0.325 seconds
+[2024-12-17T15:44:14.676+0000] {processor.py:157} INFO - Started process (PID=80558) to work on /opt/airflow/dags/david_raya_to_postgres_etl.py
+[2024-12-17T15:44:14.677+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/david_raya_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:44:14.678+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:14.678+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/david_raya_to_postgres_etl.py
+[2024-12-17T15:44:14.964+0000] {processor.py:836} INFO - DAG(s) dict_keys(['david_raya_to_postgres_etl']) retrieved from /opt/airflow/dags/david_raya_to_postgres_etl.py
+[2024-12-17T15:44:14.980+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:14.980+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:44:14.991+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:14.990+0000] {dag.py:3486} INFO - Setting next_dagrun for david_raya_to_postgres_etl to None, run_after=None
+[2024-12-17T15:44:14.999+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/david_raya_to_postgres_etl.py took 0.328 seconds
+[2024-12-17T15:44:46.192+0000] {processor.py:157} INFO - Started process (PID=80763) to work on /opt/airflow/dags/david_raya_to_postgres_etl.py
+[2024-12-17T15:44:46.193+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/david_raya_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:44:46.193+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:46.193+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/david_raya_to_postgres_etl.py
+[2024-12-17T15:44:46.502+0000] {processor.py:836} INFO - DAG(s) dict_keys(['david_raya_to_postgres_etl']) retrieved from /opt/airflow/dags/david_raya_to_postgres_etl.py
+[2024-12-17T15:44:46.647+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:46.646+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:44:46.712+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:46.712+0000] {dag.py:3486} INFO - Setting next_dagrun for david_raya_to_postgres_etl to None, run_after=None
+[2024-12-17T15:44:46.731+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/david_raya_to_postgres_etl.py took 0.542 seconds
+[2024-12-17T15:45:17.322+0000] {processor.py:157} INFO - Started process (PID=80970) to work on /opt/airflow/dags/david_raya_to_postgres_etl.py
+[2024-12-17T15:45:17.323+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/david_raya_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:45:17.323+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:17.323+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/david_raya_to_postgres_etl.py
+[2024-12-17T15:45:17.667+0000] {processor.py:836} INFO - DAG(s) dict_keys(['david_raya_to_postgres_etl']) retrieved from /opt/airflow/dags/david_raya_to_postgres_etl.py
+[2024-12-17T15:45:17.688+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:17.688+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:45:17.700+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:17.700+0000] {dag.py:3486} INFO - Setting next_dagrun for david_raya_to_postgres_etl to None, run_after=None
+[2024-12-17T15:45:17.709+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/david_raya_to_postgres_etl.py took 0.388 seconds
+[2024-12-17T15:45:48.658+0000] {processor.py:157} INFO - Started process (PID=81178) to work on /opt/airflow/dags/david_raya_to_postgres_etl.py
+[2024-12-17T15:45:48.659+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/david_raya_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:45:48.660+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:48.659+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/david_raya_to_postgres_etl.py
+[2024-12-17T15:45:48.983+0000] {processor.py:836} INFO - DAG(s) dict_keys(['david_raya_to_postgres_etl']) retrieved from /opt/airflow/dags/david_raya_to_postgres_etl.py
+[2024-12-17T15:45:48.997+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:48.997+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:45:49.007+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:49.007+0000] {dag.py:3486} INFO - Setting next_dagrun for david_raya_to_postgres_etl to None, run_after=None
+[2024-12-17T15:45:49.015+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/david_raya_to_postgres_etl.py took 0.360 seconds
+[2024-12-17T15:46:19.282+0000] {processor.py:157} INFO - Started process (PID=81383) to work on /opt/airflow/dags/david_raya_to_postgres_etl.py
+[2024-12-17T15:46:19.283+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/david_raya_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:46:19.284+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:19.284+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/david_raya_to_postgres_etl.py
+[2024-12-17T15:46:19.618+0000] {processor.py:836} INFO - DAG(s) dict_keys(['david_raya_to_postgres_etl']) retrieved from /opt/airflow/dags/david_raya_to_postgres_etl.py
+[2024-12-17T15:46:19.633+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:19.633+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:46:19.644+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:19.644+0000] {dag.py:3486} INFO - Setting next_dagrun for david_raya_to_postgres_etl to None, run_after=None
+[2024-12-17T15:46:19.652+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/david_raya_to_postgres_etl.py took 0.373 seconds
+[2024-12-17T15:46:50.370+0000] {processor.py:157} INFO - Started process (PID=81587) to work on /opt/airflow/dags/david_raya_to_postgres_etl.py
+[2024-12-17T15:46:50.371+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/david_raya_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:46:50.371+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:50.371+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/david_raya_to_postgres_etl.py
+[2024-12-17T15:46:50.693+0000] {processor.py:836} INFO - DAG(s) dict_keys(['david_raya_to_postgres_etl']) retrieved from /opt/airflow/dags/david_raya_to_postgres_etl.py
+[2024-12-17T15:46:50.711+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:50.711+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:46:50.723+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:50.723+0000] {dag.py:3486} INFO - Setting next_dagrun for david_raya_to_postgres_etl to None, run_after=None
+[2024-12-17T15:46:50.731+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/david_raya_to_postgres_etl.py took 0.363 seconds
+[2024-12-17T15:47:21.060+0000] {processor.py:157} INFO - Started process (PID=81785) to work on /opt/airflow/dags/david_raya_to_postgres_etl.py
+[2024-12-17T15:47:21.061+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/david_raya_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:47:21.061+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:47:21.061+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/david_raya_to_postgres_etl.py
+[2024-12-17T15:47:21.394+0000] {processor.py:836} INFO - DAG(s) dict_keys(['david_raya_to_postgres_etl']) retrieved from /opt/airflow/dags/david_raya_to_postgres_etl.py
+[2024-12-17T15:47:21.409+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:47:21.409+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:47:21.420+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:47:21.420+0000] {dag.py:3486} INFO - Setting next_dagrun for david_raya_to_postgres_etl to None, run_after=None
+[2024-12-17T15:47:21.429+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/david_raya_to_postgres_etl.py took 0.371 seconds

@@ -9819,3 +9819,101 @@
 [2024-12-17T15:39:56.385+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:39:56.384+0000] {dag.py:2726} INFO - Sync 1 DAGs
 [2024-12-17T15:39:56.452+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:39:56.451+0000] {dag.py:3486} INFO - Setting next_dagrun for kai_havertz_to_postgres_etl to None, run_after=None
 [2024-12-17T15:39:56.466+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/kai_havertz_to_postgres_etl.py took 0.533 seconds
+[2024-12-17T15:40:26.725+0000] {processor.py:157} INFO - Started process (PID=78990) to work on /opt/airflow/dags/kai_havertz_to_postgres_etl.py
+[2024-12-17T15:40:26.727+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/kai_havertz_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:40:26.728+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:40:26.728+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/kai_havertz_to_postgres_etl.py
+[2024-12-17T15:40:27.157+0000] {processor.py:836} INFO - DAG(s) dict_keys(['kai_havertz_to_postgres_etl']) retrieved from /opt/airflow/dags/kai_havertz_to_postgres_etl.py
+[2024-12-17T15:40:27.180+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:40:27.179+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:40:27.194+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:40:27.194+0000] {dag.py:3486} INFO - Setting next_dagrun for kai_havertz_to_postgres_etl to None, run_after=None
+[2024-12-17T15:40:27.203+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/kai_havertz_to_postgres_etl.py took 0.483 seconds
+[2024-12-17T15:40:57.635+0000] {processor.py:157} INFO - Started process (PID=79195) to work on /opt/airflow/dags/kai_havertz_to_postgres_etl.py
+[2024-12-17T15:40:57.637+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/kai_havertz_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:40:57.638+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:40:57.638+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/kai_havertz_to_postgres_etl.py
+[2024-12-17T15:40:58.107+0000] {processor.py:836} INFO - DAG(s) dict_keys(['kai_havertz_to_postgres_etl']) retrieved from /opt/airflow/dags/kai_havertz_to_postgres_etl.py
+[2024-12-17T15:40:58.138+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:40:58.137+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:40:58.168+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:40:58.167+0000] {dag.py:3486} INFO - Setting next_dagrun for kai_havertz_to_postgres_etl to None, run_after=None
+[2024-12-17T15:40:58.181+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/kai_havertz_to_postgres_etl.py took 0.552 seconds
+[2024-12-17T15:41:28.460+0000] {processor.py:157} INFO - Started process (PID=79400) to work on /opt/airflow/dags/kai_havertz_to_postgres_etl.py
+[2024-12-17T15:41:28.463+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/kai_havertz_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:41:28.465+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:41:28.465+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/kai_havertz_to_postgres_etl.py
+[2024-12-17T15:41:29.176+0000] {processor.py:836} INFO - DAG(s) dict_keys(['kai_havertz_to_postgres_etl']) retrieved from /opt/airflow/dags/kai_havertz_to_postgres_etl.py
+[2024-12-17T15:41:29.229+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:41:29.227+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:41:29.257+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:41:29.257+0000] {dag.py:3486} INFO - Setting next_dagrun for kai_havertz_to_postgres_etl to None, run_after=None
+[2024-12-17T15:41:29.272+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/kai_havertz_to_postgres_etl.py took 0.822 seconds
+[2024-12-17T15:41:59.695+0000] {processor.py:157} INFO - Started process (PID=79605) to work on /opt/airflow/dags/kai_havertz_to_postgres_etl.py
+[2024-12-17T15:41:59.697+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/kai_havertz_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:41:59.698+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:41:59.698+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/kai_havertz_to_postgres_etl.py
+[2024-12-17T15:42:00.138+0000] {processor.py:836} INFO - DAG(s) dict_keys(['kai_havertz_to_postgres_etl']) retrieved from /opt/airflow/dags/kai_havertz_to_postgres_etl.py
+[2024-12-17T15:42:00.170+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:42:00.169+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:42:00.186+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:42:00.186+0000] {dag.py:3486} INFO - Setting next_dagrun for kai_havertz_to_postgres_etl to None, run_after=None
+[2024-12-17T15:42:00.196+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/kai_havertz_to_postgres_etl.py took 0.507 seconds
+[2024-12-17T15:42:30.717+0000] {processor.py:157} INFO - Started process (PID=79810) to work on /opt/airflow/dags/kai_havertz_to_postgres_etl.py
+[2024-12-17T15:42:30.720+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/kai_havertz_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:42:30.721+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:42:30.721+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/kai_havertz_to_postgres_etl.py
+[2024-12-17T15:42:31.149+0000] {processor.py:836} INFO - DAG(s) dict_keys(['kai_havertz_to_postgres_etl']) retrieved from /opt/airflow/dags/kai_havertz_to_postgres_etl.py
+[2024-12-17T15:42:31.168+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:42:31.168+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:42:31.182+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:42:31.181+0000] {dag.py:3486} INFO - Setting next_dagrun for kai_havertz_to_postgres_etl to None, run_after=None
+[2024-12-17T15:42:31.192+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/kai_havertz_to_postgres_etl.py took 0.481 seconds
+[2024-12-17T15:43:02.052+0000] {processor.py:157} INFO - Started process (PID=80015) to work on /opt/airflow/dags/kai_havertz_to_postgres_etl.py
+[2024-12-17T15:43:02.054+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/kai_havertz_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:43:02.055+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:02.055+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/kai_havertz_to_postgres_etl.py
+[2024-12-17T15:43:02.409+0000] {processor.py:836} INFO - DAG(s) dict_keys(['kai_havertz_to_postgres_etl']) retrieved from /opt/airflow/dags/kai_havertz_to_postgres_etl.py
+[2024-12-17T15:43:02.434+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:02.434+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:43:02.455+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:02.455+0000] {dag.py:3486} INFO - Setting next_dagrun for kai_havertz_to_postgres_etl to None, run_after=None
+[2024-12-17T15:43:02.478+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/kai_havertz_to_postgres_etl.py took 0.430 seconds
+[2024-12-17T15:43:33.157+0000] {processor.py:157} INFO - Started process (PID=80220) to work on /opt/airflow/dags/kai_havertz_to_postgres_etl.py
+[2024-12-17T15:43:33.159+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/kai_havertz_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:43:33.160+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:33.160+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/kai_havertz_to_postgres_etl.py
+[2024-12-17T15:43:33.582+0000] {processor.py:836} INFO - DAG(s) dict_keys(['kai_havertz_to_postgres_etl']) retrieved from /opt/airflow/dags/kai_havertz_to_postgres_etl.py
+[2024-12-17T15:43:33.614+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:33.613+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:43:33.629+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:33.629+0000] {dag.py:3486} INFO - Setting next_dagrun for kai_havertz_to_postgres_etl to None, run_after=None
+[2024-12-17T15:43:33.639+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/kai_havertz_to_postgres_etl.py took 0.490 seconds
+[2024-12-17T15:44:03.869+0000] {processor.py:157} INFO - Started process (PID=80425) to work on /opt/airflow/dags/kai_havertz_to_postgres_etl.py
+[2024-12-17T15:44:03.870+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/kai_havertz_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:44:03.871+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:03.870+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/kai_havertz_to_postgres_etl.py
+[2024-12-17T15:44:04.222+0000] {processor.py:836} INFO - DAG(s) dict_keys(['kai_havertz_to_postgres_etl']) retrieved from /opt/airflow/dags/kai_havertz_to_postgres_etl.py
+[2024-12-17T15:44:04.241+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:04.241+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:44:04.253+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:04.253+0000] {dag.py:3486} INFO - Setting next_dagrun for kai_havertz_to_postgres_etl to None, run_after=None
+[2024-12-17T15:44:04.263+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/kai_havertz_to_postgres_etl.py took 0.395 seconds
+[2024-12-17T15:44:34.439+0000] {processor.py:157} INFO - Started process (PID=80628) to work on /opt/airflow/dags/kai_havertz_to_postgres_etl.py
+[2024-12-17T15:44:34.440+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/kai_havertz_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:44:34.440+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:34.440+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/kai_havertz_to_postgres_etl.py
+[2024-12-17T15:44:34.972+0000] {processor.py:836} INFO - DAG(s) dict_keys(['kai_havertz_to_postgres_etl']) retrieved from /opt/airflow/dags/kai_havertz_to_postgres_etl.py
+[2024-12-17T15:44:35.018+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:35.017+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:44:35.035+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:35.035+0000] {dag.py:3486} INFO - Setting next_dagrun for kai_havertz_to_postgres_etl to None, run_after=None
+[2024-12-17T15:44:35.048+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/kai_havertz_to_postgres_etl.py took 0.612 seconds
+[2024-12-17T15:45:05.848+0000] {processor.py:157} INFO - Started process (PID=80838) to work on /opt/airflow/dags/kai_havertz_to_postgres_etl.py
+[2024-12-17T15:45:05.848+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/kai_havertz_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:45:05.849+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:05.849+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/kai_havertz_to_postgres_etl.py
+[2024-12-17T15:45:06.233+0000] {processor.py:836} INFO - DAG(s) dict_keys(['kai_havertz_to_postgres_etl']) retrieved from /opt/airflow/dags/kai_havertz_to_postgres_etl.py
+[2024-12-17T15:45:06.253+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:06.253+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:45:06.265+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:06.265+0000] {dag.py:3486} INFO - Setting next_dagrun for kai_havertz_to_postgres_etl to None, run_after=None
+[2024-12-17T15:45:06.274+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/kai_havertz_to_postgres_etl.py took 0.428 seconds
+[2024-12-17T15:45:36.744+0000] {processor.py:157} INFO - Started process (PID=81043) to work on /opt/airflow/dags/kai_havertz_to_postgres_etl.py
+[2024-12-17T15:45:36.745+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/kai_havertz_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:45:36.745+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:36.745+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/kai_havertz_to_postgres_etl.py
+[2024-12-17T15:45:37.163+0000] {processor.py:836} INFO - DAG(s) dict_keys(['kai_havertz_to_postgres_etl']) retrieved from /opt/airflow/dags/kai_havertz_to_postgres_etl.py
+[2024-12-17T15:45:37.183+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:37.183+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:45:37.202+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:37.202+0000] {dag.py:3486} INFO - Setting next_dagrun for kai_havertz_to_postgres_etl to None, run_after=None
+[2024-12-17T15:45:37.218+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/kai_havertz_to_postgres_etl.py took 0.476 seconds
+[2024-12-17T15:46:07.423+0000] {processor.py:157} INFO - Started process (PID=81247) to work on /opt/airflow/dags/kai_havertz_to_postgres_etl.py
+[2024-12-17T15:46:07.425+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/kai_havertz_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:46:07.425+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:07.425+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/kai_havertz_to_postgres_etl.py
+[2024-12-17T15:46:07.860+0000] {processor.py:836} INFO - DAG(s) dict_keys(['kai_havertz_to_postgres_etl']) retrieved from /opt/airflow/dags/kai_havertz_to_postgres_etl.py
+[2024-12-17T15:46:07.884+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:07.884+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:46:07.899+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:07.899+0000] {dag.py:3486} INFO - Setting next_dagrun for kai_havertz_to_postgres_etl to None, run_after=None
+[2024-12-17T15:46:07.908+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/kai_havertz_to_postgres_etl.py took 0.487 seconds
+[2024-12-17T15:46:38.158+0000] {processor.py:157} INFO - Started process (PID=81453) to work on /opt/airflow/dags/kai_havertz_to_postgres_etl.py
+[2024-12-17T15:46:38.158+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/kai_havertz_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:46:38.159+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:38.159+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/kai_havertz_to_postgres_etl.py
+[2024-12-17T15:46:38.580+0000] {processor.py:836} INFO - DAG(s) dict_keys(['kai_havertz_to_postgres_etl']) retrieved from /opt/airflow/dags/kai_havertz_to_postgres_etl.py
+[2024-12-17T15:46:38.601+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:38.601+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:46:38.621+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:38.620+0000] {dag.py:3486} INFO - Setting next_dagrun for kai_havertz_to_postgres_etl to None, run_after=None
+[2024-12-17T15:46:38.642+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/kai_havertz_to_postgres_etl.py took 0.486 seconds
+[2024-12-17T15:47:09.291+0000] {processor.py:157} INFO - Started process (PID=81658) to work on /opt/airflow/dags/kai_havertz_to_postgres_etl.py
+[2024-12-17T15:47:09.292+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/kai_havertz_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:47:09.293+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:47:09.293+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/kai_havertz_to_postgres_etl.py
+[2024-12-17T15:47:09.680+0000] {processor.py:836} INFO - DAG(s) dict_keys(['kai_havertz_to_postgres_etl']) retrieved from /opt/airflow/dags/kai_havertz_to_postgres_etl.py
+[2024-12-17T15:47:09.698+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:47:09.698+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:47:09.710+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:47:09.710+0000] {dag.py:3486} INFO - Setting next_dagrun for kai_havertz_to_postgres_etl to None, run_after=None
+[2024-12-17T15:47:09.719+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/kai_havertz_to_postgres_etl.py took 0.430 seconds

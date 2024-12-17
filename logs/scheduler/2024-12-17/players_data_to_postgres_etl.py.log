@@ -5567,3 +5567,101 @@
 [2024-12-17T15:39:54.496+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:39:54.496+0000] {dag.py:2726} INFO - Sync 1 DAGs
 [2024-12-17T15:39:54.509+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:39:54.509+0000] {dag.py:3486} INFO - Setting next_dagrun for players_data_to_postgres_etl to None, run_after=None
 [2024-12-17T15:39:54.520+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/players_data_to_postgres_etl.py took 0.602 seconds
+[2024-12-17T15:40:24.730+0000] {processor.py:157} INFO - Started process (PID=78938) to work on /opt/airflow/dags/players_data_to_postgres_etl.py
+[2024-12-17T15:40:24.733+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/players_data_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:40:24.734+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:40:24.734+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/players_data_to_postgres_etl.py
+[2024-12-17T15:40:25.251+0000] {processor.py:836} INFO - DAG(s) dict_keys(['players_data_to_postgres_etl']) retrieved from /opt/airflow/dags/players_data_to_postgres_etl.py
+[2024-12-17T15:40:25.272+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:40:25.272+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:40:25.292+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:40:25.292+0000] {dag.py:3486} INFO - Setting next_dagrun for players_data_to_postgres_etl to None, run_after=None
+[2024-12-17T15:40:25.303+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/players_data_to_postgres_etl.py took 0.602 seconds
+[2024-12-17T15:40:55.586+0000] {processor.py:157} INFO - Started process (PID=79143) to work on /opt/airflow/dags/players_data_to_postgres_etl.py
+[2024-12-17T15:40:55.588+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/players_data_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:40:55.589+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:40:55.589+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/players_data_to_postgres_etl.py
+[2024-12-17T15:40:56.117+0000] {processor.py:836} INFO - DAG(s) dict_keys(['players_data_to_postgres_etl']) retrieved from /opt/airflow/dags/players_data_to_postgres_etl.py
+[2024-12-17T15:40:56.138+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:40:56.138+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:40:56.152+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:40:56.152+0000] {dag.py:3486} INFO - Setting next_dagrun for players_data_to_postgres_etl to None, run_after=None
+[2024-12-17T15:40:56.164+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/players_data_to_postgres_etl.py took 0.584 seconds
+[2024-12-17T15:41:26.364+0000] {processor.py:157} INFO - Started process (PID=79348) to work on /opt/airflow/dags/players_data_to_postgres_etl.py
+[2024-12-17T15:41:26.372+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/players_data_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:41:26.375+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:41:26.375+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/players_data_to_postgres_etl.py
+[2024-12-17T15:41:26.964+0000] {processor.py:836} INFO - DAG(s) dict_keys(['players_data_to_postgres_etl']) retrieved from /opt/airflow/dags/players_data_to_postgres_etl.py
+[2024-12-17T15:41:26.982+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:41:26.982+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:41:26.996+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:41:26.996+0000] {dag.py:3486} INFO - Setting next_dagrun for players_data_to_postgres_etl to None, run_after=None
+[2024-12-17T15:41:27.010+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/players_data_to_postgres_etl.py took 0.653 seconds
+[2024-12-17T15:41:57.686+0000] {processor.py:157} INFO - Started process (PID=79553) to work on /opt/airflow/dags/players_data_to_postgres_etl.py
+[2024-12-17T15:41:57.689+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/players_data_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:41:57.689+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:41:57.689+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/players_data_to_postgres_etl.py
+[2024-12-17T15:41:58.211+0000] {processor.py:836} INFO - DAG(s) dict_keys(['players_data_to_postgres_etl']) retrieved from /opt/airflow/dags/players_data_to_postgres_etl.py
+[2024-12-17T15:41:58.230+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:41:58.230+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:41:58.243+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:41:58.243+0000] {dag.py:3486} INFO - Setting next_dagrun for players_data_to_postgres_etl to None, run_after=None
+[2024-12-17T15:41:58.259+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/players_data_to_postgres_etl.py took 0.589 seconds
+[2024-12-17T15:42:28.652+0000] {processor.py:157} INFO - Started process (PID=79758) to work on /opt/airflow/dags/players_data_to_postgres_etl.py
+[2024-12-17T15:42:28.654+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/players_data_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:42:28.655+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:42:28.654+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/players_data_to_postgres_etl.py
+[2024-12-17T15:42:29.235+0000] {processor.py:836} INFO - DAG(s) dict_keys(['players_data_to_postgres_etl']) retrieved from /opt/airflow/dags/players_data_to_postgres_etl.py
+[2024-12-17T15:42:29.258+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:42:29.258+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:42:29.276+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:42:29.276+0000] {dag.py:3486} INFO - Setting next_dagrun for players_data_to_postgres_etl to None, run_after=None
+[2024-12-17T15:42:29.287+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/players_data_to_postgres_etl.py took 0.650 seconds
+[2024-12-17T15:43:00.041+0000] {processor.py:157} INFO - Started process (PID=79963) to work on /opt/airflow/dags/players_data_to_postgres_etl.py
+[2024-12-17T15:43:00.043+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/players_data_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:43:00.045+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:00.044+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/players_data_to_postgres_etl.py
+[2024-12-17T15:43:00.587+0000] {processor.py:836} INFO - DAG(s) dict_keys(['players_data_to_postgres_etl']) retrieved from /opt/airflow/dags/players_data_to_postgres_etl.py
+[2024-12-17T15:43:00.606+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:00.606+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:43:00.619+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:00.619+0000] {dag.py:3486} INFO - Setting next_dagrun for players_data_to_postgres_etl to None, run_after=None
+[2024-12-17T15:43:00.629+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/players_data_to_postgres_etl.py took 0.594 seconds
+[2024-12-17T15:43:31.100+0000] {processor.py:157} INFO - Started process (PID=80168) to work on /opt/airflow/dags/players_data_to_postgres_etl.py
+[2024-12-17T15:43:31.102+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/players_data_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:43:31.103+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:31.103+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/players_data_to_postgres_etl.py
+[2024-12-17T15:43:31.686+0000] {processor.py:836} INFO - DAG(s) dict_keys(['players_data_to_postgres_etl']) retrieved from /opt/airflow/dags/players_data_to_postgres_etl.py
+[2024-12-17T15:43:31.714+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:31.714+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:43:31.727+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:31.727+0000] {dag.py:3486} INFO - Setting next_dagrun for players_data_to_postgres_etl to None, run_after=None
+[2024-12-17T15:43:31.737+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/players_data_to_postgres_etl.py took 0.644 seconds
+[2024-12-17T15:44:02.513+0000] {processor.py:157} INFO - Started process (PID=80373) to work on /opt/airflow/dags/players_data_to_postgres_etl.py
+[2024-12-17T15:44:02.520+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/players_data_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:44:02.525+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:02.524+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/players_data_to_postgres_etl.py
+[2024-12-17T15:44:03.077+0000] {processor.py:836} INFO - DAG(s) dict_keys(['players_data_to_postgres_etl']) retrieved from /opt/airflow/dags/players_data_to_postgres_etl.py
+[2024-12-17T15:44:03.116+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:03.116+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:44:03.132+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:03.132+0000] {dag.py:3486} INFO - Setting next_dagrun for players_data_to_postgres_etl to None, run_after=None
+[2024-12-17T15:44:03.143+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/players_data_to_postgres_etl.py took 0.646 seconds
+[2024-12-17T15:44:33.332+0000] {processor.py:157} INFO - Started process (PID=80578) to work on /opt/airflow/dags/players_data_to_postgres_etl.py
+[2024-12-17T15:44:33.335+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/players_data_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:44:33.336+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:33.336+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/players_data_to_postgres_etl.py
+[2024-12-17T15:44:33.938+0000] {processor.py:836} INFO - DAG(s) dict_keys(['players_data_to_postgres_etl']) retrieved from /opt/airflow/dags/players_data_to_postgres_etl.py
+[2024-12-17T15:44:33.957+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:33.957+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:44:33.972+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:33.972+0000] {dag.py:3486} INFO - Setting next_dagrun for players_data_to_postgres_etl to None, run_after=None
+[2024-12-17T15:44:33.986+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/players_data_to_postgres_etl.py took 0.664 seconds
+[2024-12-17T15:45:04.552+0000] {processor.py:157} INFO - Started process (PID=80783) to work on /opt/airflow/dags/players_data_to_postgres_etl.py
+[2024-12-17T15:45:04.554+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/players_data_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:45:04.555+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:04.555+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/players_data_to_postgres_etl.py
+[2024-12-17T15:45:05.098+0000] {processor.py:836} INFO - DAG(s) dict_keys(['players_data_to_postgres_etl']) retrieved from /opt/airflow/dags/players_data_to_postgres_etl.py
+[2024-12-17T15:45:05.116+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:05.116+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:45:05.129+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:05.129+0000] {dag.py:3486} INFO - Setting next_dagrun for players_data_to_postgres_etl to None, run_after=None
+[2024-12-17T15:45:05.139+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/players_data_to_postgres_etl.py took 0.596 seconds
+[2024-12-17T15:45:35.861+0000] {processor.py:157} INFO - Started process (PID=81001) to work on /opt/airflow/dags/players_data_to_postgres_etl.py
+[2024-12-17T15:45:35.862+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/players_data_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:45:35.863+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:35.863+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/players_data_to_postgres_etl.py
+[2024-12-17T15:45:36.248+0000] {processor.py:836} INFO - DAG(s) dict_keys(['players_data_to_postgres_etl']) retrieved from /opt/airflow/dags/players_data_to_postgres_etl.py
+[2024-12-17T15:45:36.271+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:36.271+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:45:36.283+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:36.283+0000] {dag.py:3486} INFO - Setting next_dagrun for players_data_to_postgres_etl to None, run_after=None
+[2024-12-17T15:45:36.293+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/players_data_to_postgres_etl.py took 0.434 seconds
+[2024-12-17T15:46:06.825+0000] {processor.py:157} INFO - Started process (PID=81206) to work on /opt/airflow/dags/players_data_to_postgres_etl.py
+[2024-12-17T15:46:06.828+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/players_data_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:46:06.829+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:06.828+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/players_data_to_postgres_etl.py
+[2024-12-17T15:46:07.199+0000] {processor.py:836} INFO - DAG(s) dict_keys(['players_data_to_postgres_etl']) retrieved from /opt/airflow/dags/players_data_to_postgres_etl.py
+[2024-12-17T15:46:07.229+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:07.228+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:46:07.241+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:07.241+0000] {dag.py:3486} INFO - Setting next_dagrun for players_data_to_postgres_etl to None, run_after=None
+[2024-12-17T15:46:07.249+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/players_data_to_postgres_etl.py took 0.428 seconds
+[2024-12-17T15:46:37.441+0000] {processor.py:157} INFO - Started process (PID=81411) to work on /opt/airflow/dags/players_data_to_postgres_etl.py
+[2024-12-17T15:46:37.441+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/players_data_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:46:37.442+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:37.442+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/players_data_to_postgres_etl.py
+[2024-12-17T15:46:37.849+0000] {processor.py:836} INFO - DAG(s) dict_keys(['players_data_to_postgres_etl']) retrieved from /opt/airflow/dags/players_data_to_postgres_etl.py
+[2024-12-17T15:46:37.907+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:37.906+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:46:37.923+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:37.923+0000] {dag.py:3486} INFO - Setting next_dagrun for players_data_to_postgres_etl to None, run_after=None
+[2024-12-17T15:46:37.937+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/players_data_to_postgres_etl.py took 0.499 seconds
+[2024-12-17T15:47:08.210+0000] {processor.py:157} INFO - Started process (PID=81603) to work on /opt/airflow/dags/players_data_to_postgres_etl.py
+[2024-12-17T15:47:08.214+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/players_data_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:47:08.215+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:47:08.215+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/players_data_to_postgres_etl.py
+[2024-12-17T15:47:08.754+0000] {processor.py:836} INFO - DAG(s) dict_keys(['players_data_to_postgres_etl']) retrieved from /opt/airflow/dags/players_data_to_postgres_etl.py
+[2024-12-17T15:47:08.783+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:47:08.782+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:47:08.794+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:47:08.794+0000] {dag.py:3486} INFO - Setting next_dagrun for players_data_to_postgres_etl to None, run_after=None
+[2024-12-17T15:47:08.802+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/players_data_to_postgres_etl.py took 0.615 seconds

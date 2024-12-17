@@ -9840,3 +9840,101 @@
 [2024-12-17T15:39:54.466+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:39:54.466+0000] {dag.py:2726} INFO - Sync 1 DAGs
 [2024-12-17T15:39:54.481+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:39:54.481+0000] {dag.py:3486} INFO - Setting next_dagrun for arsenalfc_to_postgres_etl to None, run_after=None
 [2024-12-17T15:39:54.491+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/arsenalfc_to_postgres_etl.py took 0.561 seconds
+[2024-12-17T15:40:24.734+0000] {processor.py:157} INFO - Started process (PID=78941) to work on /opt/airflow/dags/arsenalfc_to_postgres_etl.py
+[2024-12-17T15:40:24.735+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/arsenalfc_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:40:24.736+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:40:24.736+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/arsenalfc_to_postgres_etl.py
+[2024-12-17T15:40:25.212+0000] {processor.py:836} INFO - DAG(s) dict_keys(['arsenalfc_to_postgres_etl']) retrieved from /opt/airflow/dags/arsenalfc_to_postgres_etl.py
+[2024-12-17T15:40:25.239+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:40:25.239+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:40:25.254+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:40:25.254+0000] {dag.py:3486} INFO - Setting next_dagrun for arsenalfc_to_postgres_etl to None, run_after=None
+[2024-12-17T15:40:25.265+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/arsenalfc_to_postgres_etl.py took 0.543 seconds
+[2024-12-17T15:40:55.590+0000] {processor.py:157} INFO - Started process (PID=79146) to work on /opt/airflow/dags/arsenalfc_to_postgres_etl.py
+[2024-12-17T15:40:55.592+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/arsenalfc_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:40:55.593+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:40:55.593+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/arsenalfc_to_postgres_etl.py
+[2024-12-17T15:40:56.074+0000] {processor.py:836} INFO - DAG(s) dict_keys(['arsenalfc_to_postgres_etl']) retrieved from /opt/airflow/dags/arsenalfc_to_postgres_etl.py
+[2024-12-17T15:40:56.111+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:40:56.110+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:40:56.126+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:40:56.126+0000] {dag.py:3486} INFO - Setting next_dagrun for arsenalfc_to_postgres_etl to None, run_after=None
+[2024-12-17T15:40:56.138+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/arsenalfc_to_postgres_etl.py took 0.552 seconds
+[2024-12-17T15:41:26.366+0000] {processor.py:157} INFO - Started process (PID=79351) to work on /opt/airflow/dags/arsenalfc_to_postgres_etl.py
+[2024-12-17T15:41:26.372+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/arsenalfc_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:41:26.375+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:41:26.375+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/arsenalfc_to_postgres_etl.py
+[2024-12-17T15:41:26.924+0000] {processor.py:836} INFO - DAG(s) dict_keys(['arsenalfc_to_postgres_etl']) retrieved from /opt/airflow/dags/arsenalfc_to_postgres_etl.py
+[2024-12-17T15:41:26.952+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:41:26.952+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:41:26.966+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:41:26.966+0000] {dag.py:3486} INFO - Setting next_dagrun for arsenalfc_to_postgres_etl to None, run_after=None
+[2024-12-17T15:41:26.977+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/arsenalfc_to_postgres_etl.py took 0.615 seconds
+[2024-12-17T15:41:57.688+0000] {processor.py:157} INFO - Started process (PID=79555) to work on /opt/airflow/dags/arsenalfc_to_postgres_etl.py
+[2024-12-17T15:41:57.690+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/arsenalfc_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:41:57.691+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:41:57.690+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/arsenalfc_to_postgres_etl.py
+[2024-12-17T15:41:58.173+0000] {processor.py:836} INFO - DAG(s) dict_keys(['arsenalfc_to_postgres_etl']) retrieved from /opt/airflow/dags/arsenalfc_to_postgres_etl.py
+[2024-12-17T15:41:58.200+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:41:58.199+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:41:58.215+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:41:58.215+0000] {dag.py:3486} INFO - Setting next_dagrun for arsenalfc_to_postgres_etl to None, run_after=None
+[2024-12-17T15:41:58.225+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/arsenalfc_to_postgres_etl.py took 0.543 seconds
+[2024-12-17T15:42:28.656+0000] {processor.py:157} INFO - Started process (PID=79761) to work on /opt/airflow/dags/arsenalfc_to_postgres_etl.py
+[2024-12-17T15:42:28.658+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/arsenalfc_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:42:28.659+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:42:28.659+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/arsenalfc_to_postgres_etl.py
+[2024-12-17T15:42:29.213+0000] {processor.py:836} INFO - DAG(s) dict_keys(['arsenalfc_to_postgres_etl']) retrieved from /opt/airflow/dags/arsenalfc_to_postgres_etl.py
+[2024-12-17T15:42:29.243+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:42:29.243+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:42:29.267+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:42:29.267+0000] {dag.py:3486} INFO - Setting next_dagrun for arsenalfc_to_postgres_etl to None, run_after=None
+[2024-12-17T15:42:29.278+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/arsenalfc_to_postgres_etl.py took 0.628 seconds
+[2024-12-17T15:43:00.045+0000] {processor.py:157} INFO - Started process (PID=79966) to work on /opt/airflow/dags/arsenalfc_to_postgres_etl.py
+[2024-12-17T15:43:00.050+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/arsenalfc_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:43:00.053+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:00.053+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/arsenalfc_to_postgres_etl.py
+[2024-12-17T15:43:00.544+0000] {processor.py:836} INFO - DAG(s) dict_keys(['arsenalfc_to_postgres_etl']) retrieved from /opt/airflow/dags/arsenalfc_to_postgres_etl.py
+[2024-12-17T15:43:00.569+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:00.569+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:43:00.589+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:00.589+0000] {dag.py:3486} INFO - Setting next_dagrun for arsenalfc_to_postgres_etl to None, run_after=None
+[2024-12-17T15:43:00.599+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/arsenalfc_to_postgres_etl.py took 0.560 seconds
+[2024-12-17T15:43:31.102+0000] {processor.py:157} INFO - Started process (PID=80170) to work on /opt/airflow/dags/arsenalfc_to_postgres_etl.py
+[2024-12-17T15:43:31.104+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/arsenalfc_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:43:31.104+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:31.104+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/arsenalfc_to_postgres_etl.py
+[2024-12-17T15:43:31.652+0000] {processor.py:836} INFO - DAG(s) dict_keys(['arsenalfc_to_postgres_etl']) retrieved from /opt/airflow/dags/arsenalfc_to_postgres_etl.py
+[2024-12-17T15:43:31.712+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:31.711+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:43:31.727+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:31.727+0000] {dag.py:3486} INFO - Setting next_dagrun for arsenalfc_to_postgres_etl to None, run_after=None
+[2024-12-17T15:43:31.737+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/arsenalfc_to_postgres_etl.py took 0.640 seconds
+[2024-12-17T15:44:02.523+0000] {processor.py:157} INFO - Started process (PID=80376) to work on /opt/airflow/dags/arsenalfc_to_postgres_etl.py
+[2024-12-17T15:44:02.528+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/arsenalfc_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:44:02.529+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:02.529+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/arsenalfc_to_postgres_etl.py
+[2024-12-17T15:44:03.077+0000] {processor.py:836} INFO - DAG(s) dict_keys(['arsenalfc_to_postgres_etl']) retrieved from /opt/airflow/dags/arsenalfc_to_postgres_etl.py
+[2024-12-17T15:44:03.116+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:03.116+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:44:03.132+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:03.132+0000] {dag.py:3486} INFO - Setting next_dagrun for arsenalfc_to_postgres_etl to None, run_after=None
+[2024-12-17T15:44:03.143+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/arsenalfc_to_postgres_etl.py took 0.637 seconds
+[2024-12-17T15:44:33.334+0000] {processor.py:157} INFO - Started process (PID=80580) to work on /opt/airflow/dags/arsenalfc_to_postgres_etl.py
+[2024-12-17T15:44:33.335+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/arsenalfc_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:44:33.336+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:33.336+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/arsenalfc_to_postgres_etl.py
+[2024-12-17T15:44:33.917+0000] {processor.py:836} INFO - DAG(s) dict_keys(['arsenalfc_to_postgres_etl']) retrieved from /opt/airflow/dags/arsenalfc_to_postgres_etl.py
+[2024-12-17T15:44:33.947+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:33.947+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:44:33.963+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:33.962+0000] {dag.py:3486} INFO - Setting next_dagrun for arsenalfc_to_postgres_etl to None, run_after=None
+[2024-12-17T15:44:33.974+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/arsenalfc_to_postgres_etl.py took 0.646 seconds
+[2024-12-17T15:45:04.556+0000] {processor.py:157} INFO - Started process (PID=80786) to work on /opt/airflow/dags/arsenalfc_to_postgres_etl.py
+[2024-12-17T15:45:04.558+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/arsenalfc_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:45:04.558+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:04.558+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/arsenalfc_to_postgres_etl.py
+[2024-12-17T15:45:05.061+0000] {processor.py:836} INFO - DAG(s) dict_keys(['arsenalfc_to_postgres_etl']) retrieved from /opt/airflow/dags/arsenalfc_to_postgres_etl.py
+[2024-12-17T15:45:05.087+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:05.086+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:45:05.102+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:05.102+0000] {dag.py:3486} INFO - Setting next_dagrun for arsenalfc_to_postgres_etl to None, run_after=None
+[2024-12-17T15:45:05.116+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/arsenalfc_to_postgres_etl.py took 0.567 seconds
+[2024-12-17T15:45:35.203+0000] {processor.py:157} INFO - Started process (PID=80988) to work on /opt/airflow/dags/arsenalfc_to_postgres_etl.py
+[2024-12-17T15:45:35.205+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/arsenalfc_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:45:35.206+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:35.206+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/arsenalfc_to_postgres_etl.py
+[2024-12-17T15:45:35.780+0000] {processor.py:836} INFO - DAG(s) dict_keys(['arsenalfc_to_postgres_etl']) retrieved from /opt/airflow/dags/arsenalfc_to_postgres_etl.py
+[2024-12-17T15:45:35.816+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:35.816+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:45:35.830+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:35.830+0000] {dag.py:3486} INFO - Setting next_dagrun for arsenalfc_to_postgres_etl to None, run_after=None
+[2024-12-17T15:45:35.839+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/arsenalfc_to_postgres_etl.py took 0.643 seconds
+[2024-12-17T15:46:06.188+0000] {processor.py:157} INFO - Started process (PID=81193) to work on /opt/airflow/dags/arsenalfc_to_postgres_etl.py
+[2024-12-17T15:46:06.190+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/arsenalfc_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:46:06.191+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:06.191+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/arsenalfc_to_postgres_etl.py
+[2024-12-17T15:46:06.753+0000] {processor.py:836} INFO - DAG(s) dict_keys(['arsenalfc_to_postgres_etl']) retrieved from /opt/airflow/dags/arsenalfc_to_postgres_etl.py
+[2024-12-17T15:46:06.777+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:06.777+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:46:06.790+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:06.790+0000] {dag.py:3486} INFO - Setting next_dagrun for arsenalfc_to_postgres_etl to None, run_after=None
+[2024-12-17T15:46:06.799+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/arsenalfc_to_postgres_etl.py took 0.621 seconds
+[2024-12-17T15:46:36.871+0000] {processor.py:157} INFO - Started process (PID=81398) to work on /opt/airflow/dags/arsenalfc_to_postgres_etl.py
+[2024-12-17T15:46:36.873+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/arsenalfc_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:46:36.874+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:36.873+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/arsenalfc_to_postgres_etl.py
+[2024-12-17T15:46:37.370+0000] {processor.py:836} INFO - DAG(s) dict_keys(['arsenalfc_to_postgres_etl']) retrieved from /opt/airflow/dags/arsenalfc_to_postgres_etl.py
+[2024-12-17T15:46:37.396+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:37.395+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:46:37.408+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:37.408+0000] {dag.py:3486} INFO - Setting next_dagrun for arsenalfc_to_postgres_etl to None, run_after=None
+[2024-12-17T15:46:37.418+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/arsenalfc_to_postgres_etl.py took 0.553 seconds
+[2024-12-17T15:47:08.542+0000] {processor.py:157} INFO - Started process (PID=81619) to work on /opt/airflow/dags/arsenalfc_to_postgres_etl.py
+[2024-12-17T15:47:08.543+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/arsenalfc_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:47:08.543+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:47:08.543+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/arsenalfc_to_postgres_etl.py
+[2024-12-17T15:47:08.891+0000] {processor.py:836} INFO - DAG(s) dict_keys(['arsenalfc_to_postgres_etl']) retrieved from /opt/airflow/dags/arsenalfc_to_postgres_etl.py
+[2024-12-17T15:47:08.909+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:47:08.909+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:47:08.921+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:47:08.921+0000] {dag.py:3486} INFO - Setting next_dagrun for arsenalfc_to_postgres_etl to None, run_after=None
+[2024-12-17T15:47:08.931+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/arsenalfc_to_postgres_etl.py took 0.390 seconds

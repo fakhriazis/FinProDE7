@@ -9826,3 +9826,101 @@
 [2024-12-17T15:39:54.864+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:39:54.864+0000] {dag.py:2726} INFO - Sync 1 DAGs
 [2024-12-17T15:39:54.874+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:39:54.874+0000] {dag.py:3486} INFO - Setting next_dagrun for mancity_to_postgres_etl to None, run_after=None
 [2024-12-17T15:39:54.882+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mancity_to_postgres_etl.py took 0.374 seconds
+[2024-12-17T15:40:25.293+0000] {processor.py:157} INFO - Started process (PID=78962) to work on /opt/airflow/dags/mancity_to_postgres_etl.py
+[2024-12-17T15:40:25.294+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/mancity_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:40:25.294+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:40:25.294+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/mancity_to_postgres_etl.py
+[2024-12-17T15:40:25.630+0000] {processor.py:836} INFO - DAG(s) dict_keys(['mancity_to_postgres_etl']) retrieved from /opt/airflow/dags/mancity_to_postgres_etl.py
+[2024-12-17T15:40:25.650+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:40:25.650+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:40:25.662+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:40:25.662+0000] {dag.py:3486} INFO - Setting next_dagrun for mancity_to_postgres_etl to None, run_after=None
+[2024-12-17T15:40:25.671+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mancity_to_postgres_etl.py took 0.381 seconds
+[2024-12-17T15:40:56.163+0000] {processor.py:157} INFO - Started process (PID=79167) to work on /opt/airflow/dags/mancity_to_postgres_etl.py
+[2024-12-17T15:40:56.164+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/mancity_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:40:56.164+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:40:56.164+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/mancity_to_postgres_etl.py
+[2024-12-17T15:40:56.539+0000] {processor.py:836} INFO - DAG(s) dict_keys(['mancity_to_postgres_etl']) retrieved from /opt/airflow/dags/mancity_to_postgres_etl.py
+[2024-12-17T15:40:56.557+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:40:56.557+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:40:56.568+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:40:56.568+0000] {dag.py:3486} INFO - Setting next_dagrun for mancity_to_postgres_etl to None, run_after=None
+[2024-12-17T15:40:56.578+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mancity_to_postgres_etl.py took 0.417 seconds
+[2024-12-17T15:41:26.996+0000] {processor.py:157} INFO - Started process (PID=79372) to work on /opt/airflow/dags/mancity_to_postgres_etl.py
+[2024-12-17T15:41:26.997+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/mancity_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:41:26.998+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:41:26.998+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/mancity_to_postgres_etl.py
+[2024-12-17T15:41:27.334+0000] {processor.py:836} INFO - DAG(s) dict_keys(['mancity_to_postgres_etl']) retrieved from /opt/airflow/dags/mancity_to_postgres_etl.py
+[2024-12-17T15:41:27.359+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:41:27.358+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:41:27.378+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:41:27.378+0000] {dag.py:3486} INFO - Setting next_dagrun for mancity_to_postgres_etl to None, run_after=None
+[2024-12-17T15:41:27.389+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mancity_to_postgres_etl.py took 0.395 seconds
+[2024-12-17T15:41:58.246+0000] {processor.py:157} INFO - Started process (PID=79577) to work on /opt/airflow/dags/mancity_to_postgres_etl.py
+[2024-12-17T15:41:58.250+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/mancity_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:41:58.251+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:41:58.251+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/mancity_to_postgres_etl.py
+[2024-12-17T15:41:58.597+0000] {processor.py:836} INFO - DAG(s) dict_keys(['mancity_to_postgres_etl']) retrieved from /opt/airflow/dags/mancity_to_postgres_etl.py
+[2024-12-17T15:41:58.616+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:41:58.616+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:41:58.628+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:41:58.628+0000] {dag.py:3486} INFO - Setting next_dagrun for mancity_to_postgres_etl to None, run_after=None
+[2024-12-17T15:41:58.636+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mancity_to_postgres_etl.py took 0.394 seconds
+[2024-12-17T15:42:29.304+0000] {processor.py:157} INFO - Started process (PID=79784) to work on /opt/airflow/dags/mancity_to_postgres_etl.py
+[2024-12-17T15:42:29.305+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/mancity_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:42:29.305+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:42:29.305+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/mancity_to_postgres_etl.py
+[2024-12-17T15:42:29.610+0000] {processor.py:836} INFO - DAG(s) dict_keys(['mancity_to_postgres_etl']) retrieved from /opt/airflow/dags/mancity_to_postgres_etl.py
+[2024-12-17T15:42:29.636+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:42:29.635+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:42:29.648+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:42:29.648+0000] {dag.py:3486} INFO - Setting next_dagrun for mancity_to_postgres_etl to None, run_after=None
+[2024-12-17T15:42:29.656+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mancity_to_postgres_etl.py took 0.355 seconds
+[2024-12-17T15:43:00.617+0000] {processor.py:157} INFO - Started process (PID=79987) to work on /opt/airflow/dags/mancity_to_postgres_etl.py
+[2024-12-17T15:43:00.618+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/mancity_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:43:00.618+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:00.618+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/mancity_to_postgres_etl.py
+[2024-12-17T15:43:00.959+0000] {processor.py:836} INFO - DAG(s) dict_keys(['mancity_to_postgres_etl']) retrieved from /opt/airflow/dags/mancity_to_postgres_etl.py
+[2024-12-17T15:43:00.976+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:00.976+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:43:00.987+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:00.987+0000] {dag.py:3486} INFO - Setting next_dagrun for mancity_to_postgres_etl to None, run_after=None
+[2024-12-17T15:43:00.996+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mancity_to_postgres_etl.py took 0.380 seconds
+[2024-12-17T15:43:31.756+0000] {processor.py:157} INFO - Started process (PID=80194) to work on /opt/airflow/dags/mancity_to_postgres_etl.py
+[2024-12-17T15:43:31.757+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/mancity_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:43:31.757+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:31.757+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/mancity_to_postgres_etl.py
+[2024-12-17T15:43:32.055+0000] {processor.py:836} INFO - DAG(s) dict_keys(['mancity_to_postgres_etl']) retrieved from /opt/airflow/dags/mancity_to_postgres_etl.py
+[2024-12-17T15:43:32.071+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:32.071+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:43:32.081+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:32.081+0000] {dag.py:3486} INFO - Setting next_dagrun for mancity_to_postgres_etl to None, run_after=None
+[2024-12-17T15:43:32.088+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mancity_to_postgres_etl.py took 0.334 seconds
+[2024-12-17T15:44:03.165+0000] {processor.py:157} INFO - Started process (PID=80399) to work on /opt/airflow/dags/mancity_to_postgres_etl.py
+[2024-12-17T15:44:03.166+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/mancity_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:44:03.166+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:03.166+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/mancity_to_postgres_etl.py
+[2024-12-17T15:44:03.469+0000] {processor.py:836} INFO - DAG(s) dict_keys(['mancity_to_postgres_etl']) retrieved from /opt/airflow/dags/mancity_to_postgres_etl.py
+[2024-12-17T15:44:03.486+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:03.485+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:44:03.495+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:03.495+0000] {dag.py:3486} INFO - Setting next_dagrun for mancity_to_postgres_etl to None, run_after=None
+[2024-12-17T15:44:03.503+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mancity_to_postgres_etl.py took 0.340 seconds
+[2024-12-17T15:44:34.001+0000] {processor.py:157} INFO - Started process (PID=80604) to work on /opt/airflow/dags/mancity_to_postgres_etl.py
+[2024-12-17T15:44:34.002+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/mancity_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:44:34.002+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:34.002+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/mancity_to_postgres_etl.py
+[2024-12-17T15:44:34.399+0000] {processor.py:836} INFO - DAG(s) dict_keys(['mancity_to_postgres_etl']) retrieved from /opt/airflow/dags/mancity_to_postgres_etl.py
+[2024-12-17T15:44:34.416+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:34.416+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:44:34.434+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:34.434+0000] {dag.py:3486} INFO - Setting next_dagrun for mancity_to_postgres_etl to None, run_after=None
+[2024-12-17T15:44:34.445+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mancity_to_postgres_etl.py took 0.445 seconds
+[2024-12-17T15:45:05.172+0000] {processor.py:157} INFO - Started process (PID=80809) to work on /opt/airflow/dags/mancity_to_postgres_etl.py
+[2024-12-17T15:45:05.173+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/mancity_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:45:05.174+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:05.174+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/mancity_to_postgres_etl.py
+[2024-12-17T15:45:05.453+0000] {processor.py:836} INFO - DAG(s) dict_keys(['mancity_to_postgres_etl']) retrieved from /opt/airflow/dags/mancity_to_postgres_etl.py
+[2024-12-17T15:45:05.470+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:05.469+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:45:05.480+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:05.480+0000] {dag.py:3486} INFO - Setting next_dagrun for mancity_to_postgres_etl to None, run_after=None
+[2024-12-17T15:45:05.487+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mancity_to_postgres_etl.py took 0.317 seconds
+[2024-12-17T15:45:35.868+0000] {processor.py:157} INFO - Started process (PID=81004) to work on /opt/airflow/dags/mancity_to_postgres_etl.py
+[2024-12-17T15:45:35.869+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/mancity_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:45:35.870+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:35.870+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/mancity_to_postgres_etl.py
+[2024-12-17T15:45:36.320+0000] {processor.py:836} INFO - DAG(s) dict_keys(['mancity_to_postgres_etl']) retrieved from /opt/airflow/dags/mancity_to_postgres_etl.py
+[2024-12-17T15:45:36.415+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:36.415+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:45:36.432+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:36.432+0000] {dag.py:3486} INFO - Setting next_dagrun for mancity_to_postgres_etl to None, run_after=None
+[2024-12-17T15:45:36.444+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mancity_to_postgres_etl.py took 0.580 seconds
+[2024-12-17T15:46:07.019+0000] {processor.py:157} INFO - Started process (PID=81221) to work on /opt/airflow/dags/mancity_to_postgres_etl.py
+[2024-12-17T15:46:07.019+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/mancity_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:46:07.020+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:07.020+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/mancity_to_postgres_etl.py
+[2024-12-17T15:46:07.364+0000] {processor.py:836} INFO - DAG(s) dict_keys(['mancity_to_postgres_etl']) retrieved from /opt/airflow/dags/mancity_to_postgres_etl.py
+[2024-12-17T15:46:07.383+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:07.383+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:46:07.397+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:07.397+0000] {dag.py:3486} INFO - Setting next_dagrun for mancity_to_postgres_etl to None, run_after=None
+[2024-12-17T15:46:07.407+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mancity_to_postgres_etl.py took 0.390 seconds
+[2024-12-17T15:46:37.693+0000] {processor.py:157} INFO - Started process (PID=81427) to work on /opt/airflow/dags/mancity_to_postgres_etl.py
+[2024-12-17T15:46:37.693+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/mancity_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:46:37.694+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:37.694+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/mancity_to_postgres_etl.py
+[2024-12-17T15:46:38.101+0000] {processor.py:836} INFO - DAG(s) dict_keys(['mancity_to_postgres_etl']) retrieved from /opt/airflow/dags/mancity_to_postgres_etl.py
+[2024-12-17T15:46:38.120+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:38.120+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:46:38.132+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:38.131+0000] {dag.py:3486} INFO - Setting next_dagrun for mancity_to_postgres_etl to None, run_after=None
+[2024-12-17T15:46:38.140+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mancity_to_postgres_etl.py took 0.450 seconds
+[2024-12-17T15:47:08.821+0000] {processor.py:157} INFO - Started process (PID=81632) to work on /opt/airflow/dags/mancity_to_postgres_etl.py
+[2024-12-17T15:47:08.822+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/mancity_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:47:08.822+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:47:08.822+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/mancity_to_postgres_etl.py
+[2024-12-17T15:47:09.199+0000] {processor.py:836} INFO - DAG(s) dict_keys(['mancity_to_postgres_etl']) retrieved from /opt/airflow/dags/mancity_to_postgres_etl.py
+[2024-12-17T15:47:09.220+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:47:09.219+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:47:09.243+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:47:09.243+0000] {dag.py:3486} INFO - Setting next_dagrun for mancity_to_postgres_etl to None, run_after=None
+[2024-12-17T15:47:09.256+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mancity_to_postgres_etl.py took 0.439 seconds

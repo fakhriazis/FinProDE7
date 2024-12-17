@@ -9819,3 +9819,101 @@
 [2024-12-17T15:40:04.593+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:40:04.592+0000] {dag.py:2726} INFO - Sync 1 DAGs
 [2024-12-17T15:40:04.604+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:40:04.603+0000] {dag.py:3486} INFO - Setting next_dagrun for ben_white_to_postgres_etl to None, run_after=None
 [2024-12-17T15:40:04.618+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ben_white_to_postgres_etl.py took 0.417 seconds
+[2024-12-17T15:40:35.033+0000] {processor.py:157} INFO - Started process (PID=79089) to work on /opt/airflow/dags/ben_white_to_postgres_etl.py
+[2024-12-17T15:40:35.034+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ben_white_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:40:35.034+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:40:35.034+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ben_white_to_postgres_etl.py
+[2024-12-17T15:40:35.382+0000] {processor.py:836} INFO - DAG(s) dict_keys(['ben_white_to_postgres_etl']) retrieved from /opt/airflow/dags/ben_white_to_postgres_etl.py
+[2024-12-17T15:40:35.400+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:40:35.399+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:40:35.412+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:40:35.411+0000] {dag.py:3486} INFO - Setting next_dagrun for ben_white_to_postgres_etl to None, run_after=None
+[2024-12-17T15:40:35.420+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ben_white_to_postgres_etl.py took 0.390 seconds
+[2024-12-17T15:41:05.698+0000] {processor.py:157} INFO - Started process (PID=79294) to work on /opt/airflow/dags/ben_white_to_postgres_etl.py
+[2024-12-17T15:41:05.699+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ben_white_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:41:05.700+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:41:05.700+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ben_white_to_postgres_etl.py
+[2024-12-17T15:41:06.064+0000] {processor.py:836} INFO - DAG(s) dict_keys(['ben_white_to_postgres_etl']) retrieved from /opt/airflow/dags/ben_white_to_postgres_etl.py
+[2024-12-17T15:41:06.082+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:41:06.082+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:41:06.093+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:41:06.093+0000] {dag.py:3486} INFO - Setting next_dagrun for ben_white_to_postgres_etl to None, run_after=None
+[2024-12-17T15:41:06.101+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ben_white_to_postgres_etl.py took 0.407 seconds
+[2024-12-17T15:41:37.410+0000] {processor.py:157} INFO - Started process (PID=79509) to work on /opt/airflow/dags/ben_white_to_postgres_etl.py
+[2024-12-17T15:41:37.411+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ben_white_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:41:37.412+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:41:37.412+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ben_white_to_postgres_etl.py
+[2024-12-17T15:41:37.799+0000] {processor.py:836} INFO - DAG(s) dict_keys(['ben_white_to_postgres_etl']) retrieved from /opt/airflow/dags/ben_white_to_postgres_etl.py
+[2024-12-17T15:41:37.821+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:41:37.821+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:41:37.839+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:41:37.839+0000] {dag.py:3486} INFO - Setting next_dagrun for ben_white_to_postgres_etl to None, run_after=None
+[2024-12-17T15:41:37.848+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ben_white_to_postgres_etl.py took 0.440 seconds
+[2024-12-17T15:42:08.839+0000] {processor.py:157} INFO - Started process (PID=79714) to work on /opt/airflow/dags/ben_white_to_postgres_etl.py
+[2024-12-17T15:42:08.839+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ben_white_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:42:08.840+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:42:08.840+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ben_white_to_postgres_etl.py
+[2024-12-17T15:42:09.214+0000] {processor.py:836} INFO - DAG(s) dict_keys(['ben_white_to_postgres_etl']) retrieved from /opt/airflow/dags/ben_white_to_postgres_etl.py
+[2024-12-17T15:42:09.239+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:42:09.239+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:42:09.263+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:42:09.263+0000] {dag.py:3486} INFO - Setting next_dagrun for ben_white_to_postgres_etl to None, run_after=None
+[2024-12-17T15:42:09.276+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ben_white_to_postgres_etl.py took 0.440 seconds
+[2024-12-17T15:42:40.280+0000] {processor.py:157} INFO - Started process (PID=79919) to work on /opt/airflow/dags/ben_white_to_postgres_etl.py
+[2024-12-17T15:42:40.281+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ben_white_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:42:40.282+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:42:40.282+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ben_white_to_postgres_etl.py
+[2024-12-17T15:42:40.613+0000] {processor.py:836} INFO - DAG(s) dict_keys(['ben_white_to_postgres_etl']) retrieved from /opt/airflow/dags/ben_white_to_postgres_etl.py
+[2024-12-17T15:42:40.630+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:42:40.630+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:42:40.641+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:42:40.640+0000] {dag.py:3486} INFO - Setting next_dagrun for ben_white_to_postgres_etl to None, run_after=None
+[2024-12-17T15:42:40.650+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ben_white_to_postgres_etl.py took 0.374 seconds
+[2024-12-17T15:43:11.507+0000] {processor.py:157} INFO - Started process (PID=80124) to work on /opt/airflow/dags/ben_white_to_postgres_etl.py
+[2024-12-17T15:43:11.508+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ben_white_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:43:11.508+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:11.508+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ben_white_to_postgres_etl.py
+[2024-12-17T15:43:11.837+0000] {processor.py:836} INFO - DAG(s) dict_keys(['ben_white_to_postgres_etl']) retrieved from /opt/airflow/dags/ben_white_to_postgres_etl.py
+[2024-12-17T15:43:11.853+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:11.853+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:43:11.864+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:11.864+0000] {dag.py:3486} INFO - Setting next_dagrun for ben_white_to_postgres_etl to None, run_after=None
+[2024-12-17T15:43:11.875+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ben_white_to_postgres_etl.py took 0.370 seconds
+[2024-12-17T15:43:42.743+0000] {processor.py:157} INFO - Started process (PID=80329) to work on /opt/airflow/dags/ben_white_to_postgres_etl.py
+[2024-12-17T15:43:42.744+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ben_white_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:43:42.744+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:42.744+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ben_white_to_postgres_etl.py
+[2024-12-17T15:43:43.100+0000] {processor.py:836} INFO - DAG(s) dict_keys(['ben_white_to_postgres_etl']) retrieved from /opt/airflow/dags/ben_white_to_postgres_etl.py
+[2024-12-17T15:43:43.117+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:43.117+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:43:43.129+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:43.129+0000] {dag.py:3486} INFO - Setting next_dagrun for ben_white_to_postgres_etl to None, run_after=None
+[2024-12-17T15:43:43.138+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ben_white_to_postgres_etl.py took 0.397 seconds
+[2024-12-17T15:44:14.279+0000] {processor.py:157} INFO - Started process (PID=80534) to work on /opt/airflow/dags/ben_white_to_postgres_etl.py
+[2024-12-17T15:44:14.280+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ben_white_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:44:14.280+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:14.280+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ben_white_to_postgres_etl.py
+[2024-12-17T15:44:14.617+0000] {processor.py:836} INFO - DAG(s) dict_keys(['ben_white_to_postgres_etl']) retrieved from /opt/airflow/dags/ben_white_to_postgres_etl.py
+[2024-12-17T15:44:14.634+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:14.634+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:44:14.644+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:14.644+0000] {dag.py:3486} INFO - Setting next_dagrun for ben_white_to_postgres_etl to None, run_after=None
+[2024-12-17T15:44:14.654+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ben_white_to_postgres_etl.py took 0.377 seconds
+[2024-12-17T15:44:45.779+0000] {processor.py:157} INFO - Started process (PID=80739) to work on /opt/airflow/dags/ben_white_to_postgres_etl.py
+[2024-12-17T15:44:45.780+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ben_white_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:44:45.780+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:45.780+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ben_white_to_postgres_etl.py
+[2024-12-17T15:44:46.136+0000] {processor.py:836} INFO - DAG(s) dict_keys(['ben_white_to_postgres_etl']) retrieved from /opt/airflow/dags/ben_white_to_postgres_etl.py
+[2024-12-17T15:44:46.154+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:46.153+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:44:46.168+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:46.167+0000] {dag.py:3486} INFO - Setting next_dagrun for ben_white_to_postgres_etl to None, run_after=None
+[2024-12-17T15:44:46.176+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ben_white_to_postgres_etl.py took 0.399 seconds
+[2024-12-17T15:45:16.933+0000] {processor.py:157} INFO - Started process (PID=80944) to work on /opt/airflow/dags/ben_white_to_postgres_etl.py
+[2024-12-17T15:45:16.934+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ben_white_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:45:16.935+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:16.935+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ben_white_to_postgres_etl.py
+[2024-12-17T15:45:17.265+0000] {processor.py:836} INFO - DAG(s) dict_keys(['ben_white_to_postgres_etl']) retrieved from /opt/airflow/dags/ben_white_to_postgres_etl.py
+[2024-12-17T15:45:17.282+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:17.282+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:45:17.293+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:17.292+0000] {dag.py:3486} INFO - Setting next_dagrun for ben_white_to_postgres_etl to None, run_after=None
+[2024-12-17T15:45:17.305+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ben_white_to_postgres_etl.py took 0.373 seconds
+[2024-12-17T15:45:48.189+0000] {processor.py:157} INFO - Started process (PID=81152) to work on /opt/airflow/dags/ben_white_to_postgres_etl.py
+[2024-12-17T15:45:48.190+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ben_white_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:45:48.191+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:48.191+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ben_white_to_postgres_etl.py
+[2024-12-17T15:45:48.592+0000] {processor.py:836} INFO - DAG(s) dict_keys(['ben_white_to_postgres_etl']) retrieved from /opt/airflow/dags/ben_white_to_postgres_etl.py
+[2024-12-17T15:45:48.616+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:48.615+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:45:48.629+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:48.629+0000] {dag.py:3486} INFO - Setting next_dagrun for ben_white_to_postgres_etl to None, run_after=None
+[2024-12-17T15:45:48.639+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ben_white_to_postgres_etl.py took 0.451 seconds
+[2024-12-17T15:46:18.777+0000] {processor.py:157} INFO - Started process (PID=81357) to work on /opt/airflow/dags/ben_white_to_postgres_etl.py
+[2024-12-17T15:46:18.778+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ben_white_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:46:18.778+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:18.778+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ben_white_to_postgres_etl.py
+[2024-12-17T15:46:19.180+0000] {processor.py:836} INFO - DAG(s) dict_keys(['ben_white_to_postgres_etl']) retrieved from /opt/airflow/dags/ben_white_to_postgres_etl.py
+[2024-12-17T15:46:19.198+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:19.198+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:46:19.231+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:19.231+0000] {dag.py:3486} INFO - Setting next_dagrun for ben_white_to_postgres_etl to None, run_after=None
+[2024-12-17T15:46:19.257+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ben_white_to_postgres_etl.py took 0.482 seconds
+[2024-12-17T15:46:49.914+0000] {processor.py:157} INFO - Started process (PID=81561) to work on /opt/airflow/dags/ben_white_to_postgres_etl.py
+[2024-12-17T15:46:49.915+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ben_white_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:46:49.916+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:49.916+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ben_white_to_postgres_etl.py
+[2024-12-17T15:46:50.253+0000] {processor.py:836} INFO - DAG(s) dict_keys(['ben_white_to_postgres_etl']) retrieved from /opt/airflow/dags/ben_white_to_postgres_etl.py
+[2024-12-17T15:46:50.320+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:50.319+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:46:50.335+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:50.334+0000] {dag.py:3486} INFO - Setting next_dagrun for ben_white_to_postgres_etl to None, run_after=None
+[2024-12-17T15:46:50.346+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ben_white_to_postgres_etl.py took 0.434 seconds
+[2024-12-17T15:47:20.727+0000] {processor.py:157} INFO - Started process (PID=81769) to work on /opt/airflow/dags/ben_white_to_postgres_etl.py
+[2024-12-17T15:47:20.728+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/ben_white_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:47:20.729+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:47:20.729+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ben_white_to_postgres_etl.py
+[2024-12-17T15:47:21.006+0000] {processor.py:836} INFO - DAG(s) dict_keys(['ben_white_to_postgres_etl']) retrieved from /opt/airflow/dags/ben_white_to_postgres_etl.py
+[2024-12-17T15:47:21.022+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:47:21.021+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:47:21.033+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:47:21.032+0000] {dag.py:3486} INFO - Setting next_dagrun for ben_white_to_postgres_etl to None, run_after=None
+[2024-12-17T15:47:21.041+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ben_white_to_postgres_etl.py took 0.315 seconds

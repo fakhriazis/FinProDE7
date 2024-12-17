@@ -9819,3 +9819,101 @@
 [2024-12-17T15:40:04.588+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:40:04.588+0000] {dag.py:2726} INFO - Sync 1 DAGs
 [2024-12-17T15:40:04.599+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:40:04.599+0000] {dag.py:3486} INFO - Setting next_dagrun for william_saliba_to_postgres_etl to None, run_after=None
 [2024-12-17T15:40:04.609+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/william_saliba_to_postgres_etl.py took 0.415 seconds
+[2024-12-17T15:40:35.028+0000] {processor.py:157} INFO - Started process (PID=79086) to work on /opt/airflow/dags/william_saliba_to_postgres_etl.py
+[2024-12-17T15:40:35.030+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/william_saliba_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:40:35.031+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:40:35.031+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/william_saliba_to_postgres_etl.py
+[2024-12-17T15:40:35.382+0000] {processor.py:836} INFO - DAG(s) dict_keys(['william_saliba_to_postgres_etl']) retrieved from /opt/airflow/dags/william_saliba_to_postgres_etl.py
+[2024-12-17T15:40:35.400+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:40:35.399+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:40:35.412+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:40:35.411+0000] {dag.py:3486} INFO - Setting next_dagrun for william_saliba_to_postgres_etl to None, run_after=None
+[2024-12-17T15:40:35.420+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/william_saliba_to_postgres_etl.py took 0.396 seconds
+[2024-12-17T15:41:05.691+0000] {processor.py:157} INFO - Started process (PID=79291) to work on /opt/airflow/dags/william_saliba_to_postgres_etl.py
+[2024-12-17T15:41:05.693+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/william_saliba_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:41:05.694+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:41:05.694+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/william_saliba_to_postgres_etl.py
+[2024-12-17T15:41:06.064+0000] {processor.py:836} INFO - DAG(s) dict_keys(['william_saliba_to_postgres_etl']) retrieved from /opt/airflow/dags/william_saliba_to_postgres_etl.py
+[2024-12-17T15:41:06.082+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:41:06.082+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:41:06.093+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:41:06.093+0000] {dag.py:3486} INFO - Setting next_dagrun for william_saliba_to_postgres_etl to None, run_after=None
+[2024-12-17T15:41:06.101+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/william_saliba_to_postgres_etl.py took 0.414 seconds
+[2024-12-17T15:41:37.082+0000] {processor.py:157} INFO - Started process (PID=79496) to work on /opt/airflow/dags/william_saliba_to_postgres_etl.py
+[2024-12-17T15:41:37.083+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/william_saliba_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:41:37.084+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:41:37.084+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/william_saliba_to_postgres_etl.py
+[2024-12-17T15:41:37.362+0000] {processor.py:836} INFO - DAG(s) dict_keys(['william_saliba_to_postgres_etl']) retrieved from /opt/airflow/dags/william_saliba_to_postgres_etl.py
+[2024-12-17T15:41:37.377+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:41:37.377+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:41:37.387+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:41:37.387+0000] {dag.py:3486} INFO - Setting next_dagrun for william_saliba_to_postgres_etl to None, run_after=None
+[2024-12-17T15:41:37.395+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/william_saliba_to_postgres_etl.py took 0.315 seconds
+[2024-12-17T15:42:08.484+0000] {processor.py:157} INFO - Started process (PID=79701) to work on /opt/airflow/dags/william_saliba_to_postgres_etl.py
+[2024-12-17T15:42:08.485+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/william_saliba_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:42:08.485+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:42:08.485+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/william_saliba_to_postgres_etl.py
+[2024-12-17T15:42:08.782+0000] {processor.py:836} INFO - DAG(s) dict_keys(['william_saliba_to_postgres_etl']) retrieved from /opt/airflow/dags/william_saliba_to_postgres_etl.py
+[2024-12-17T15:42:08.798+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:42:08.798+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:42:08.811+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:42:08.811+0000] {dag.py:3486} INFO - Setting next_dagrun for william_saliba_to_postgres_etl to None, run_after=None
+[2024-12-17T15:42:08.821+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/william_saliba_to_postgres_etl.py took 0.340 seconds
+[2024-12-17T15:42:39.901+0000] {processor.py:157} INFO - Started process (PID=79906) to work on /opt/airflow/dags/william_saliba_to_postgres_etl.py
+[2024-12-17T15:42:39.902+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/william_saliba_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:42:39.902+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:42:39.902+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/william_saliba_to_postgres_etl.py
+[2024-12-17T15:42:40.207+0000] {processor.py:836} INFO - DAG(s) dict_keys(['william_saliba_to_postgres_etl']) retrieved from /opt/airflow/dags/william_saliba_to_postgres_etl.py
+[2024-12-17T15:42:40.230+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:42:40.230+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:42:40.246+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:42:40.246+0000] {dag.py:3486} INFO - Setting next_dagrun for william_saliba_to_postgres_etl to None, run_after=None
+[2024-12-17T15:42:40.257+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/william_saliba_to_postgres_etl.py took 0.357 seconds
+[2024-12-17T15:43:11.178+0000] {processor.py:157} INFO - Started process (PID=80111) to work on /opt/airflow/dags/william_saliba_to_postgres_etl.py
+[2024-12-17T15:43:11.179+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/william_saliba_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:43:11.179+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:11.179+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/william_saliba_to_postgres_etl.py
+[2024-12-17T15:43:11.459+0000] {processor.py:836} INFO - DAG(s) dict_keys(['william_saliba_to_postgres_etl']) retrieved from /opt/airflow/dags/william_saliba_to_postgres_etl.py
+[2024-12-17T15:43:11.473+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:11.473+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:43:11.484+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:11.483+0000] {dag.py:3486} INFO - Setting next_dagrun for william_saliba_to_postgres_etl to None, run_after=None
+[2024-12-17T15:43:11.491+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/william_saliba_to_postgres_etl.py took 0.315 seconds
+[2024-12-17T15:43:42.380+0000] {processor.py:157} INFO - Started process (PID=80316) to work on /opt/airflow/dags/william_saliba_to_postgres_etl.py
+[2024-12-17T15:43:42.381+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/william_saliba_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:43:42.381+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:42.381+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/william_saliba_to_postgres_etl.py
+[2024-12-17T15:43:42.689+0000] {processor.py:836} INFO - DAG(s) dict_keys(['william_saliba_to_postgres_etl']) retrieved from /opt/airflow/dags/william_saliba_to_postgres_etl.py
+[2024-12-17T15:43:42.706+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:42.706+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:43:42.716+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:42.716+0000] {dag.py:3486} INFO - Setting next_dagrun for william_saliba_to_postgres_etl to None, run_after=None
+[2024-12-17T15:43:42.723+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/william_saliba_to_postgres_etl.py took 0.346 seconds
+[2024-12-17T15:44:13.918+0000] {processor.py:157} INFO - Started process (PID=80521) to work on /opt/airflow/dags/william_saliba_to_postgres_etl.py
+[2024-12-17T15:44:13.920+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/william_saliba_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:44:13.921+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:13.921+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/william_saliba_to_postgres_etl.py
+[2024-12-17T15:44:14.224+0000] {processor.py:836} INFO - DAG(s) dict_keys(['william_saliba_to_postgres_etl']) retrieved from /opt/airflow/dags/william_saliba_to_postgres_etl.py
+[2024-12-17T15:44:14.239+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:14.239+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:44:14.249+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:14.249+0000] {dag.py:3486} INFO - Setting next_dagrun for william_saliba_to_postgres_etl to None, run_after=None
+[2024-12-17T15:44:14.260+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/william_saliba_to_postgres_etl.py took 0.346 seconds
+[2024-12-17T15:44:45.418+0000] {processor.py:157} INFO - Started process (PID=80726) to work on /opt/airflow/dags/william_saliba_to_postgres_etl.py
+[2024-12-17T15:44:45.418+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/william_saliba_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:44:45.419+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:45.419+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/william_saliba_to_postgres_etl.py
+[2024-12-17T15:44:45.707+0000] {processor.py:836} INFO - DAG(s) dict_keys(['william_saliba_to_postgres_etl']) retrieved from /opt/airflow/dags/william_saliba_to_postgres_etl.py
+[2024-12-17T15:44:45.732+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:45.732+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:44:45.746+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:45.746+0000] {dag.py:3486} INFO - Setting next_dagrun for william_saliba_to_postgres_etl to None, run_after=None
+[2024-12-17T15:44:45.756+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/william_saliba_to_postgres_etl.py took 0.341 seconds
+[2024-12-17T15:45:16.480+0000] {processor.py:157} INFO - Started process (PID=80931) to work on /opt/airflow/dags/william_saliba_to_postgres_etl.py
+[2024-12-17T15:45:16.481+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/william_saliba_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:45:16.481+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:16.481+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/william_saliba_to_postgres_etl.py
+[2024-12-17T15:45:16.876+0000] {processor.py:836} INFO - DAG(s) dict_keys(['william_saliba_to_postgres_etl']) retrieved from /opt/airflow/dags/william_saliba_to_postgres_etl.py
+[2024-12-17T15:45:16.897+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:16.897+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:45:16.908+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:16.908+0000] {dag.py:3486} INFO - Setting next_dagrun for william_saliba_to_postgres_etl to None, run_after=None
+[2024-12-17T15:45:16.916+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/william_saliba_to_postgres_etl.py took 0.438 seconds
+[2024-12-17T15:45:47.826+0000] {processor.py:157} INFO - Started process (PID=81136) to work on /opt/airflow/dags/william_saliba_to_postgres_etl.py
+[2024-12-17T15:45:47.827+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/william_saliba_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:45:47.827+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:47.827+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/william_saliba_to_postgres_etl.py
+[2024-12-17T15:45:48.122+0000] {processor.py:836} INFO - DAG(s) dict_keys(['william_saliba_to_postgres_etl']) retrieved from /opt/airflow/dags/william_saliba_to_postgres_etl.py
+[2024-12-17T15:45:48.139+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:48.139+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:45:48.150+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:48.150+0000] {dag.py:3486} INFO - Setting next_dagrun for william_saliba_to_postgres_etl to None, run_after=None
+[2024-12-17T15:45:48.164+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/william_saliba_to_postgres_etl.py took 0.340 seconds
+[2024-12-17T15:46:18.539+0000] {processor.py:157} INFO - Started process (PID=81344) to work on /opt/airflow/dags/william_saliba_to_postgres_etl.py
+[2024-12-17T15:46:18.540+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/william_saliba_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:46:18.540+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:18.540+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/william_saliba_to_postgres_etl.py
+[2024-12-17T15:46:18.973+0000] {processor.py:836} INFO - DAG(s) dict_keys(['william_saliba_to_postgres_etl']) retrieved from /opt/airflow/dags/william_saliba_to_postgres_etl.py
+[2024-12-17T15:46:18.990+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:18.990+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:46:19.003+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:19.003+0000] {dag.py:3486} INFO - Setting next_dagrun for william_saliba_to_postgres_etl to None, run_after=None
+[2024-12-17T15:46:19.012+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/william_saliba_to_postgres_etl.py took 0.474 seconds
+[2024-12-17T15:46:49.725+0000] {processor.py:157} INFO - Started process (PID=81549) to work on /opt/airflow/dags/william_saliba_to_postgres_etl.py
+[2024-12-17T15:46:49.726+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/william_saliba_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:46:49.727+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:49.727+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/william_saliba_to_postgres_etl.py
+[2024-12-17T15:46:50.148+0000] {processor.py:836} INFO - DAG(s) dict_keys(['william_saliba_to_postgres_etl']) retrieved from /opt/airflow/dags/william_saliba_to_postgres_etl.py
+[2024-12-17T15:46:50.165+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:50.165+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:46:50.176+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:50.176+0000] {dag.py:3486} INFO - Setting next_dagrun for william_saliba_to_postgres_etl to None, run_after=None
+[2024-12-17T15:46:50.184+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/william_saliba_to_postgres_etl.py took 0.461 seconds
+[2024-12-17T15:47:20.404+0000] {processor.py:157} INFO - Started process (PID=81756) to work on /opt/airflow/dags/william_saliba_to_postgres_etl.py
+[2024-12-17T15:47:20.405+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/william_saliba_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:47:20.405+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:47:20.405+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/william_saliba_to_postgres_etl.py
+[2024-12-17T15:47:20.680+0000] {processor.py:836} INFO - DAG(s) dict_keys(['william_saliba_to_postgres_etl']) retrieved from /opt/airflow/dags/william_saliba_to_postgres_etl.py
+[2024-12-17T15:47:20.694+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:47:20.694+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:47:20.705+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:47:20.705+0000] {dag.py:3486} INFO - Setting next_dagrun for william_saliba_to_postgres_etl to None, run_after=None
+[2024-12-17T15:47:20.713+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/william_saliba_to_postgres_etl.py took 0.310 seconds

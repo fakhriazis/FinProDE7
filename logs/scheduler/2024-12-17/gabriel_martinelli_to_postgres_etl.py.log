@@ -9819,3 +9819,101 @@
 [2024-12-17T15:39:57.648+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:39:57.647+0000] {dag.py:2726} INFO - Sync 1 DAGs
 [2024-12-17T15:39:57.662+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:39:57.662+0000] {dag.py:3486} INFO - Setting next_dagrun for gabriel_martinelli_to_postgres_etl to None, run_after=None
 [2024-12-17T15:39:57.676+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py took 0.640 seconds
+[2024-12-17T15:40:27.761+0000] {processor.py:157} INFO - Started process (PID=79016) to work on /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py
+[2024-12-17T15:40:27.762+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:40:27.766+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:40:27.766+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py
+[2024-12-17T15:40:28.288+0000] {processor.py:836} INFO - DAG(s) dict_keys(['gabriel_martinelli_to_postgres_etl']) retrieved from /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py
+[2024-12-17T15:40:28.315+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:40:28.315+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:40:28.329+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:40:28.329+0000] {dag.py:3486} INFO - Setting next_dagrun for gabriel_martinelli_to_postgres_etl to None, run_after=None
+[2024-12-17T15:40:28.340+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py took 0.584 seconds
+[2024-12-17T15:40:58.689+0000] {processor.py:157} INFO - Started process (PID=79221) to work on /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py
+[2024-12-17T15:40:58.691+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:40:58.692+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:40:58.692+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py
+[2024-12-17T15:40:59.234+0000] {processor.py:836} INFO - DAG(s) dict_keys(['gabriel_martinelli_to_postgres_etl']) retrieved from /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py
+[2024-12-17T15:40:59.259+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:40:59.259+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:40:59.272+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:40:59.272+0000] {dag.py:3486} INFO - Setting next_dagrun for gabriel_martinelli_to_postgres_etl to None, run_after=None
+[2024-12-17T15:40:59.281+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py took 0.598 seconds
+[2024-12-17T15:41:29.331+0000] {processor.py:157} INFO - Started process (PID=79426) to work on /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py
+[2024-12-17T15:41:29.333+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:41:29.333+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:41:29.333+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py
+[2024-12-17T15:41:29.782+0000] {processor.py:836} INFO - DAG(s) dict_keys(['gabriel_martinelli_to_postgres_etl']) retrieved from /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py
+[2024-12-17T15:41:29.801+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:41:29.801+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:41:29.813+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:41:29.813+0000] {dag.py:3486} INFO - Setting next_dagrun for gabriel_martinelli_to_postgres_etl to None, run_after=None
+[2024-12-17T15:41:29.823+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py took 0.495 seconds
+[2024-12-17T15:42:00.218+0000] {processor.py:157} INFO - Started process (PID=79631) to work on /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py
+[2024-12-17T15:42:00.219+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:42:00.219+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:42:00.219+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py
+[2024-12-17T15:42:00.576+0000] {processor.py:836} INFO - DAG(s) dict_keys(['gabriel_martinelli_to_postgres_etl']) retrieved from /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py
+[2024-12-17T15:42:00.595+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:42:00.595+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:42:00.605+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:42:00.605+0000] {dag.py:3486} INFO - Setting next_dagrun for gabriel_martinelli_to_postgres_etl to None, run_after=None
+[2024-12-17T15:42:00.613+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py took 0.397 seconds
+[2024-12-17T15:42:31.215+0000] {processor.py:157} INFO - Started process (PID=79836) to work on /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py
+[2024-12-17T15:42:31.219+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:42:31.220+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:42:31.220+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py
+[2024-12-17T15:42:31.539+0000] {processor.py:836} INFO - DAG(s) dict_keys(['gabriel_martinelli_to_postgres_etl']) retrieved from /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py
+[2024-12-17T15:42:31.563+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:42:31.563+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:42:31.574+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:42:31.573+0000] {dag.py:3486} INFO - Setting next_dagrun for gabriel_martinelli_to_postgres_etl to None, run_after=None
+[2024-12-17T15:42:31.582+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py took 0.368 seconds
+[2024-12-17T15:43:02.517+0000] {processor.py:157} INFO - Started process (PID=80041) to work on /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py
+[2024-12-17T15:43:02.518+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:43:02.519+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:02.519+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py
+[2024-12-17T15:43:02.855+0000] {processor.py:836} INFO - DAG(s) dict_keys(['gabriel_martinelli_to_postgres_etl']) retrieved from /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py
+[2024-12-17T15:43:02.877+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:02.876+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:43:02.889+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:02.889+0000] {dag.py:3486} INFO - Setting next_dagrun for gabriel_martinelli_to_postgres_etl to None, run_after=None
+[2024-12-17T15:43:02.898+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py took 0.384 seconds
+[2024-12-17T15:43:33.658+0000] {processor.py:157} INFO - Started process (PID=80246) to work on /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py
+[2024-12-17T15:43:33.659+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:43:33.660+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:33.660+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py
+[2024-12-17T15:43:33.993+0000] {processor.py:836} INFO - DAG(s) dict_keys(['gabriel_martinelli_to_postgres_etl']) retrieved from /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py
+[2024-12-17T15:43:34.014+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:34.013+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:43:34.028+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:43:34.028+0000] {dag.py:3486} INFO - Setting next_dagrun for gabriel_martinelli_to_postgres_etl to None, run_after=None
+[2024-12-17T15:43:34.036+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py took 0.379 seconds
+[2024-12-17T15:44:04.285+0000] {processor.py:157} INFO - Started process (PID=80449) to work on /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py
+[2024-12-17T15:44:04.285+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:44:04.286+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:04.286+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py
+[2024-12-17T15:44:04.583+0000] {processor.py:836} INFO - DAG(s) dict_keys(['gabriel_martinelli_to_postgres_etl']) retrieved from /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py
+[2024-12-17T15:44:04.599+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:04.598+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:44:04.609+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:04.609+0000] {dag.py:3486} INFO - Setting next_dagrun for gabriel_martinelli_to_postgres_etl to None, run_after=None
+[2024-12-17T15:44:04.617+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py took 0.335 seconds
+[2024-12-17T15:44:35.309+0000] {processor.py:157} INFO - Started process (PID=80661) to work on /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py
+[2024-12-17T15:44:35.310+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:44:35.310+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:35.310+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py
+[2024-12-17T15:44:35.849+0000] {processor.py:836} INFO - DAG(s) dict_keys(['gabriel_martinelli_to_postgres_etl']) retrieved from /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py
+[2024-12-17T15:44:35.900+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:35.899+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:44:35.920+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:44:35.919+0000] {dag.py:3486} INFO - Setting next_dagrun for gabriel_martinelli_to_postgres_etl to None, run_after=None
+[2024-12-17T15:44:35.931+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py took 0.624 seconds
+[2024-12-17T15:45:06.291+0000] {processor.py:157} INFO - Started process (PID=80864) to work on /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py
+[2024-12-17T15:45:06.292+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:45:06.292+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:06.292+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py
+[2024-12-17T15:45:06.715+0000] {processor.py:836} INFO - DAG(s) dict_keys(['gabriel_martinelli_to_postgres_etl']) retrieved from /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py
+[2024-12-17T15:45:06.737+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:06.737+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:45:06.750+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:06.750+0000] {dag.py:3486} INFO - Setting next_dagrun for gabriel_martinelli_to_postgres_etl to None, run_after=None
+[2024-12-17T15:45:06.759+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py took 0.470 seconds
+[2024-12-17T15:45:37.241+0000] {processor.py:157} INFO - Started process (PID=81069) to work on /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py
+[2024-12-17T15:45:37.242+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:45:37.243+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:37.243+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py
+[2024-12-17T15:45:37.696+0000] {processor.py:836} INFO - DAG(s) dict_keys(['gabriel_martinelli_to_postgres_etl']) retrieved from /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py
+[2024-12-17T15:45:37.714+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:37.714+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:45:37.726+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:45:37.726+0000] {dag.py:3486} INFO - Setting next_dagrun for gabriel_martinelli_to_postgres_etl to None, run_after=None
+[2024-12-17T15:45:37.735+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py took 0.495 seconds
+[2024-12-17T15:46:07.924+0000] {processor.py:157} INFO - Started process (PID=81273) to work on /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py
+[2024-12-17T15:46:07.925+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:46:07.926+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:07.926+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py
+[2024-12-17T15:46:08.344+0000] {processor.py:836} INFO - DAG(s) dict_keys(['gabriel_martinelli_to_postgres_etl']) retrieved from /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py
+[2024-12-17T15:46:08.367+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:08.366+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:46:08.380+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:08.380+0000] {dag.py:3486} INFO - Setting next_dagrun for gabriel_martinelli_to_postgres_etl to None, run_after=None
+[2024-12-17T15:46:08.390+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py took 0.468 seconds
+[2024-12-17T15:46:38.665+0000] {processor.py:157} INFO - Started process (PID=81479) to work on /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py
+[2024-12-17T15:46:38.666+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:46:38.666+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:38.666+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py
+[2024-12-17T15:46:39.067+0000] {processor.py:836} INFO - DAG(s) dict_keys(['gabriel_martinelli_to_postgres_etl']) retrieved from /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py
+[2024-12-17T15:46:39.087+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:39.087+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:46:39.099+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:46:39.099+0000] {dag.py:3486} INFO - Setting next_dagrun for gabriel_martinelli_to_postgres_etl to None, run_after=None
+[2024-12-17T15:46:39.109+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py took 0.446 seconds
+[2024-12-17T15:47:09.736+0000] {processor.py:157} INFO - Started process (PID=81684) to work on /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py
+[2024-12-17T15:47:09.737+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py for tasks to queue
+[2024-12-17T15:47:09.737+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:47:09.737+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py
+[2024-12-17T15:47:10.128+0000] {processor.py:836} INFO - DAG(s) dict_keys(['gabriel_martinelli_to_postgres_etl']) retrieved from /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py
+[2024-12-17T15:47:10.143+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:47:10.143+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-12-17T15:47:10.156+0000] {logging_mixin.py:149} INFO - [2024-12-17T15:47:10.156+0000] {dag.py:3486} INFO - Setting next_dagrun for gabriel_martinelli_to_postgres_etl to None, run_after=None
+[2024-12-17T15:47:10.167+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gabriel_martinelli_to_postgres_etl.py took 0.434 seconds
